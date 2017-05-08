@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--   GDML materials definition from the file : "MuGasT - Version 3.7.0.0 - Fastrad-1ray"
+	Processed the 28/01/2017 at 12h53 by the GDML module of Fastrad 3.7.0.0 -->
+
+<materials>
+	<element name="videRef" formula="VACUUM" Z="1">
+		<atom value="1"/>
+	</element>
+	<element name="aluminum" formula="Al" Z="13">
+		<atom value="26.981539"/>
+	</element>
+	<element name="silicon" formula="Si" Z="14">
+		<atom value="28.085500"/>
+	</element>
+	<element name="iron" formula="Fe" Z="26">
+		<atom value="55.845000"/>
+	</element>
+	<element name="chromium" formula="Cr" Z="24">
+		<atom value="51.996100"/>
+	</element>
+	<element name="nickel" formula="Ni" Z="28">
+		<atom value="58.693400"/>
+	</element>
+	<element name="carbon" formula="C" Z="6">
+		<atom value="12.010700"/>
+	</element>
+	<element name="copper" formula="Cu" Z="29">
+		<atom value="63.546000"/>
+	</element>
+	<element name="hydrogen" formula="H" Z="1">
+		<atom value="1.007940"/>
+	</element>
+	<element name="oxygen" formula="O" Z="8">
+		<atom value="15.999400"/>
+	</element>
+
+	<material name="VACUUM" formula="VACUUM">
+		<D value ="1E-25" unit="g/cm3"/>
+		<fraction n="1.0" ref="videRef"/>
+	</material>
+	<material name="ALUMINUM" formula="ALUMINUM">
+		<D value ="2.700000" unit="g/cm3"/>
+		<fraction n="1.000000" ref="aluminum"/>
+	</material>
+	<material name="SILICON" formula="SILICON">
+		<D value ="2.330000" unit="g/cm3"/>
+		<fraction n="1.000000" ref="silicon"/>
+	</material>
+	<material name="STEEL_STAINLESS" formula="STEEL_STAINLESS">
+		<D value ="7.930000" unit="g/cm3"/>
+		<fraction n="0.729800" ref="iron"/>
+		<fraction n="0.180000" ref="chromium"/>
+		<fraction n="0.090000" ref="nickel"/>
+		<fraction n="0.001000" ref="carbon"/>
+	</material>
+	<material name="COPPER" formula="COPPER">
+		<D value ="8.960000" unit="g/cm3"/>
+		<fraction n="1.000000" ref="copper"/>
+	</material>
+	<material name="EPOXY" formula="EPOXY">
+		<D value ="1.850000" unit="g/cm3"/>
+		<fraction n="0.475000" ref="hydrogen"/>
+		<fraction n="0.450000" ref="carbon"/>
+		<fraction n="0.075000" ref="oxygen"/>
+	</material>
+</materials>
+
