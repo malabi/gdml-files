@@ -1,0 +1,848 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gdml xmlns:gdml="http://cern.ch/2001/Schemas/GDML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="/home/local1/geant4/GDMLSchema/gdml.xsd">
+
+    <define>
+        <position name="heavy_top_Lead_v0" unit="cm" x="28.5" y="5.0" z="-5.371994"/>
+        <position name="heavy_top_Lead_v1" unit="cm" x="64.8" y="5.0" z="-5.371994"/>
+        <position name="heavy_top_Lead_v2" unit="cm" x="28.5" y="5.0" z="-1.871994"/>
+        <position name="heavy_top_Lead_v3" unit="cm" x="28.48934" y="5.0" z="-1.641323"/>
+        <position name="heavy_top_Lead_v4" unit="cm" x="28.45743" y="5.0" z="-1.41262"/>
+        <position name="heavy_top_Lead_v5" unit="cm" x="45.89684" y="5.0" z="18.46079"/>
+        <position name="heavy_top_Lead_v6" unit="cm" x="28.40456" y="5.0" z="-1.187837"/>
+        <position name="heavy_top_Lead_v7" unit="cm" x="45.48794" y="5.0" z="18.45001"/>
+        <position name="heavy_top_Lead_v8" unit="cm" x="28.33118" y="5.0" z="-0.96889"/>
+        <position name="heavy_top_Lead_v9" unit="cm" x="45.07908" y="5.0" z="18.46215"/>
+        <position name="heavy_top_Lead_v10" unit="cm" x="28.23791" y="5.0" z="-0.7576483"/>
+        <position name="heavy_top_Lead_v11" unit="cm" x="44.67153" y="5.0" z="18.49716"/>
+        <position name="heavy_top_Lead_v12" unit="cm" x="44.26659" y="5.0" z="18.55495"/>
+        <position name="heavy_top_Lead_v13" unit="cm" x="64.8" y="5.0" z="23.70801"/>
+        <position name="heavy_top_Lead_v14" unit="cm" x="50.038" y="5.0" z="20.03191"/>
+        <position name="heavy_top_Lead_v15" unit="cm" x="49.71059" y="5.0" z="19.7867"/>
+        <position name="heavy_top_Lead_v16" unit="cm" x="49.36997" y="5.0" z="19.56022"/>
+        <position name="heavy_top_Lead_v17" unit="cm" x="52.50858" y="5.0" z="23.70801"/>
+        <position name="heavy_top_Lead_v18" unit="cm" x="52.38321" y="5.0" z="23.31865"/>
+        <position name="heavy_top_Lead_v19" unit="cm" x="52.23622" y="5.0" z="22.93693"/>
+        <position name="heavy_top_Lead_v20" unit="cm" x="52.06808" y="5.0" z="22.56404"/>
+        <position name="heavy_top_Lead_v21" unit="cm" x="51.87932" y="5.0" z="22.20115"/>
+        <position name="heavy_top_Lead_v22" unit="cm" x="51.67052" y="5.0" z="21.84941"/>
+        <position name="heavy_top_Lead_v23" unit="cm" x="51.44236" y="5.0" z="21.50991"/>
+        <position name="heavy_top_Lead_v24" unit="cm" x="51.19554" y="5.0" z="21.18373"/>
+        <position name="heavy_top_Lead_v25" unit="cm" x="50.93083" y="5.0" z="20.87188"/>
+        <position name="heavy_top_Lead_v26" unit="cm" x="50.64907" y="5.0" z="20.57535"/>
+        <position name="heavy_top_Lead_v27" unit="cm" x="50.35115" y="5.0" z="20.29506"/>
+        <position name="heavy_top_Lead_v28" unit="cm" x="49.01719" y="5.0" z="19.35318"/>
+        <position name="heavy_top_Lead_v29" unit="cm" x="48.65338" y="5.0" z="19.16622"/>
+        <position name="heavy_top_Lead_v30" unit="cm" x="48.27966" y="5.0" z="18.99993"/>
+        <position name="heavy_top_Lead_v31" unit="cm" x="47.89721" y="5.0" z="18.85483"/>
+        <position name="heavy_top_Lead_v32" unit="cm" x="47.50724" y="5.0" z="18.73138"/>
+        <position name="heavy_top_Lead_v33" unit="cm" x="47.11097" y="5.0" z="18.62997"/>
+        <position name="heavy_top_Lead_v34" unit="cm" x="46.70963" y="5.0" z="18.55092"/>
+        <position name="heavy_top_Lead_v35" unit="cm" x="46.3045" y="5.0" z="18.49447"/>
+        <position name="heavy_top_Lead_v36" unit="cm" x="28.12554" y="5.0" z="-0.5559138"/>
+        <position name="heavy_top_Lead_v37" unit="cm" x="43.86552" y="5.0" z="18.63533"/>
+        <position name="heavy_top_Lead_v38" unit="cm" x="27.99504" y="5.0" z="-0.3654076"/>
+        <position name="heavy_top_Lead_v39" unit="cm" x="43.46959" y="5.0" z="18.73805"/>
+        <position name="heavy_top_Lead_v40" unit="cm" x="27.84752" y="5.0" z="-0.1877551"/>
+        <position name="heavy_top_Lead_v41" unit="cm" x="43.08002" y="5.0" z="18.86279"/>
+        <position name="heavy_top_Lead_v42" unit="cm" x="27.68424" y="5.0" z="-0.02447187"/>
+        <position name="heavy_top_Lead_v43" unit="cm" x="42.69806" y="5.0" z="19.00915"/>
+        <position name="heavy_top_Lead_v44" unit="cm" x="27.50659" y="5.0" z="0.1230489"/>
+        <position name="heavy_top_Lead_v45" unit="cm" x="42.32489" y="5.0" z="19.17667"/>
+        <position name="heavy_top_Lead_v46" unit="cm" x="41.96169" y="5.0" z="19.36483"/>
+        <position name="heavy_top_Lead_v47" unit="cm" x="27.31608" y="5.0" z="0.2535487"/>
+        <position name="heavy_top_Lead_v48" unit="cm" x="41.6096" y="5.0" z="19.57304"/>
+        <position name="heavy_top_Lead_v49" unit="cm" x="27.11435" y="5.0" z="0.3659141"/>
+        <position name="heavy_top_Lead_v50" unit="cm" x="41.26973" y="5.0" z="19.80064"/>
+        <position name="heavy_top_Lead_v51" unit="cm" x="26.9031" y="5.0" z="0.4591864"/>
+        <position name="heavy_top_Lead_v52" unit="cm" x="40.94314" y="5.0" z="20.04693"/>
+        <position name="heavy_top_Lead_v53" unit="cm" x="26.68416" y="5.0" z="0.5325699"/>
+        <position name="heavy_top_Lead_v54" unit="cm" x="40.63086" y="5.0" z="20.31112"/>
+        <position name="heavy_top_Lead_v55" unit="cm" x="40.33386" y="5.0" z="20.59239"/>
+        <position name="heavy_top_Lead_v56" unit="cm" x="26.45937" y="5.0" z="0.5854386"/>
+        <position name="heavy_top_Lead_v57" unit="cm" x="40.05308" y="5.0" z="20.88985"/>
+        <position name="heavy_top_Lead_v58" unit="cm" x="26.23067" y="5.0" z="0.6173413"/>
+        <position name="heavy_top_Lead_v59" unit="cm" x="39.78941" y="5.0" z="21.20257"/>
+        <position name="heavy_top_Lead_v60" unit="cm" x="39.54367" y="5.0" z="21.52956"/>
+        <position name="heavy_top_Lead_v61" unit="cm" x="26.0" y="5.0" z="0.6280058"/>
+        <position name="heavy_top_Lead_v62" unit="cm" x="39.31662" y="5.0" z="21.86981"/>
+        <position name="heavy_top_Lead_v63" unit="cm" x="39.109" y="5.0" z="22.22224"/>
+        <position name="heavy_top_Lead_v64" unit="cm" x="20.5" y="5.0" z="0.6280058"/>
+        <position name="heavy_top_Lead_v65" unit="cm" x="38.92143" y="5.0" z="22.58575"/>
+        <position name="heavy_top_Lead_v66" unit="cm" x="38.75453" y="5.0" z="22.9592"/>
+        <position name="heavy_top_Lead_v67" unit="cm" x="20.5" y="5.0" z="33.72801"/>
+        <position name="heavy_top_Lead_v68" unit="cm" x="38.6088" y="5.0" z="23.3414"/>
+        <position name="heavy_top_Lead_v69" unit="cm" x="38.48471" y="5.0" z="23.73117"/>
+        <position name="heavy_top_Lead_v70" unit="cm" x="38.38264" y="5.0" z="24.12728"/>
+        <position name="heavy_top_Lead_v71" unit="cm" x="38.30293" y="5.0" z="24.52848"/>
+        <position name="heavy_top_Lead_v72" unit="cm" x="38.2458" y="5.0" z="24.93352"/>
+        <position name="heavy_top_Lead_v73" unit="cm" x="38.21146" y="5.0" z="25.34112"/>
+        <position name="heavy_top_Lead_v74" unit="cm" x="38.2" y="5.0" z="25.75"/>
+        <position name="heavy_top_Lead_v75" unit="cm" x="38.2" y="5.0" z="33.72801"/>
+        <position name="heavy_top_Lead_v76" unit="cm" x="28.5" y="9.0" z="-5.371994"/>
+        <position name="heavy_top_Lead_v77" unit="cm" x="28.5" y="9.0" z="-1.871994"/>
+        <position name="heavy_top_Lead_v78" unit="cm" x="64.8" y="9.0" z="-5.371994"/>
+        <position name="heavy_top_Lead_v79" unit="cm" x="28.48934" y="9.0" z="-1.641323"/>
+        <position name="heavy_top_Lead_v80" unit="cm" x="28.45743" y="9.0" z="-1.41262"/>
+        <position name="heavy_top_Lead_v81" unit="cm" x="45.89684" y="9.0" z="18.46079"/>
+        <position name="heavy_top_Lead_v82" unit="cm" x="28.40456" y="9.0" z="-1.187837"/>
+        <position name="heavy_top_Lead_v83" unit="cm" x="45.48794" y="9.0" z="18.45001"/>
+        <position name="heavy_top_Lead_v84" unit="cm" x="28.33118" y="9.0" z="-0.96889"/>
+        <position name="heavy_top_Lead_v85" unit="cm" x="45.07908" y="9.0" z="18.46215"/>
+        <position name="heavy_top_Lead_v86" unit="cm" x="28.23791" y="9.0" z="-0.7576483"/>
+        <position name="heavy_top_Lead_v87" unit="cm" x="44.67153" y="9.0" z="18.49716"/>
+        <position name="heavy_top_Lead_v88" unit="cm" x="44.26659" y="9.0" z="18.55495"/>
+        <position name="heavy_top_Lead_v89" unit="cm" x="28.12554" y="9.0" z="-0.5559138"/>
+        <position name="heavy_top_Lead_v90" unit="cm" x="43.86552" y="9.0" z="18.63533"/>
+        <position name="heavy_top_Lead_v91" unit="cm" x="27.99504" y="9.0" z="-0.3654076"/>
+        <position name="heavy_top_Lead_v92" unit="cm" x="43.46959" y="9.0" z="18.73805"/>
+        <position name="heavy_top_Lead_v93" unit="cm" x="27.84752" y="9.0" z="-0.1877551"/>
+        <position name="heavy_top_Lead_v94" unit="cm" x="43.08002" y="9.0" z="18.86279"/>
+        <position name="heavy_top_Lead_v95" unit="cm" x="27.68424" y="9.0" z="-0.02447187"/>
+        <position name="heavy_top_Lead_v96" unit="cm" x="42.69806" y="9.0" z="19.00915"/>
+        <position name="heavy_top_Lead_v97" unit="cm" x="27.50659" y="9.0" z="0.1230489"/>
+        <position name="heavy_top_Lead_v98" unit="cm" x="42.32489" y="9.0" z="19.17667"/>
+        <position name="heavy_top_Lead_v99" unit="cm" x="41.96169" y="9.0" z="19.36483"/>
+        <position name="heavy_top_Lead_v100" unit="cm" x="27.31608" y="9.0" z="0.2535487"/>
+        <position name="heavy_top_Lead_v101" unit="cm" x="41.6096" y="9.0" z="19.57304"/>
+        <position name="heavy_top_Lead_v102" unit="cm" x="27.11435" y="9.0" z="0.3659141"/>
+        <position name="heavy_top_Lead_v103" unit="cm" x="41.26973" y="9.0" z="19.80064"/>
+        <position name="heavy_top_Lead_v104" unit="cm" x="26.9031" y="9.0" z="0.4591864"/>
+        <position name="heavy_top_Lead_v105" unit="cm" x="40.94314" y="9.0" z="20.04693"/>
+        <position name="heavy_top_Lead_v106" unit="cm" x="26.68416" y="9.0" z="0.5325699"/>
+        <position name="heavy_top_Lead_v107" unit="cm" x="40.63086" y="9.0" z="20.31112"/>
+        <position name="heavy_top_Lead_v108" unit="cm" x="40.33386" y="9.0" z="20.59239"/>
+        <position name="heavy_top_Lead_v109" unit="cm" x="26.45937" y="9.0" z="0.5854386"/>
+        <position name="heavy_top_Lead_v110" unit="cm" x="40.05308" y="9.0" z="20.88985"/>
+        <position name="heavy_top_Lead_v111" unit="cm" x="26.23067" y="9.0" z="0.6173413"/>
+        <position name="heavy_top_Lead_v112" unit="cm" x="39.78941" y="9.0" z="21.20257"/>
+        <position name="heavy_top_Lead_v113" unit="cm" x="39.54367" y="9.0" z="21.52956"/>
+        <position name="heavy_top_Lead_v114" unit="cm" x="26.0" y="9.0" z="0.6280058"/>
+        <position name="heavy_top_Lead_v115" unit="cm" x="39.31662" y="9.0" z="21.86981"/>
+        <position name="heavy_top_Lead_v116" unit="cm" x="39.109" y="9.0" z="22.22224"/>
+        <position name="heavy_top_Lead_v117" unit="cm" x="20.5" y="9.0" z="0.6280058"/>
+        <position name="heavy_top_Lead_v118" unit="cm" x="38.92143" y="9.0" z="22.58575"/>
+        <position name="heavy_top_Lead_v119" unit="cm" x="38.75453" y="9.0" z="22.9592"/>
+        <position name="heavy_top_Lead_v120" unit="cm" x="20.5" y="9.0" z="33.72801"/>
+        <position name="heavy_top_Lead_v121" unit="cm" x="38.6088" y="9.0" z="23.3414"/>
+        <position name="heavy_top_Lead_v122" unit="cm" x="38.48471" y="9.0" z="23.73117"/>
+        <position name="heavy_top_Lead_v123" unit="cm" x="38.38264" y="9.0" z="24.12728"/>
+        <position name="heavy_top_Lead_v124" unit="cm" x="38.30293" y="9.0" z="24.52848"/>
+        <position name="heavy_top_Lead_v125" unit="cm" x="38.2458" y="9.0" z="24.93352"/>
+        <position name="heavy_top_Lead_v126" unit="cm" x="38.21146" y="9.0" z="25.34112"/>
+        <position name="heavy_top_Lead_v127" unit="cm" x="38.2" y="9.0" z="25.75"/>
+        <position name="heavy_top_Lead_v128" unit="cm" x="38.2" y="9.0" z="33.72801"/>
+        <position name="heavy_top_Lead_v129" unit="cm" x="46.3045" y="9.0" z="18.49447"/>
+        <position name="heavy_top_Lead_v130" unit="cm" x="46.70963" y="9.0" z="18.55092"/>
+        <position name="heavy_top_Lead_v131" unit="cm" x="47.11097" y="9.0" z="18.62997"/>
+        <position name="heavy_top_Lead_v132" unit="cm" x="47.50724" y="9.0" z="18.73138"/>
+        <position name="heavy_top_Lead_v133" unit="cm" x="47.89721" y="9.0" z="18.85483"/>
+        <position name="heavy_top_Lead_v134" unit="cm" x="48.27966" y="9.0" z="18.99993"/>
+        <position name="heavy_top_Lead_v135" unit="cm" x="48.65338" y="9.0" z="19.16622"/>
+        <position name="heavy_top_Lead_v136" unit="cm" x="49.01719" y="9.0" z="19.35318"/>
+        <position name="heavy_top_Lead_v137" unit="cm" x="49.36997" y="9.0" z="19.56022"/>
+        <position name="heavy_top_Lead_v138" unit="cm" x="49.71059" y="9.0" z="19.7867"/>
+        <position name="heavy_top_Lead_v139" unit="cm" x="50.038" y="9.0" z="20.03191"/>
+        <position name="heavy_top_Lead_v140" unit="cm" x="64.8" y="9.0" z="23.70801"/>
+        <position name="heavy_top_Lead_v141" unit="cm" x="50.35115" y="9.0" z="20.29506"/>
+        <position name="heavy_top_Lead_v142" unit="cm" x="50.64907" y="9.0" z="20.57535"/>
+        <position name="heavy_top_Lead_v143" unit="cm" x="50.93083" y="9.0" z="20.87188"/>
+        <position name="heavy_top_Lead_v144" unit="cm" x="51.19554" y="9.0" z="21.18373"/>
+        <position name="heavy_top_Lead_v145" unit="cm" x="51.44236" y="9.0" z="21.50991"/>
+        <position name="heavy_top_Lead_v146" unit="cm" x="51.67052" y="9.0" z="21.84941"/>
+        <position name="heavy_top_Lead_v147" unit="cm" x="51.87932" y="9.0" z="22.20115"/>
+        <position name="heavy_top_Lead_v148" unit="cm" x="52.06808" y="9.0" z="22.56404"/>
+        <position name="heavy_top_Lead_v149" unit="cm" x="52.23622" y="9.0" z="22.93693"/>
+        <position name="heavy_top_Lead_v150" unit="cm" x="52.38321" y="9.0" z="23.31865"/>
+        <position name="heavy_top_Lead_v151" unit="cm" x="52.50858" y="9.0" z="23.70801"/>
+        <position name="heavy_top_Lead_v152" unit="cm" x="28.49708" y="8.25" z="-1.751211"/>
+        <position name="heavy_top_Lead_v153" unit="cm" x="28.47377" y="8.25" z="-1.510772"/>
+        <position name="heavy_top_Lead_v154" unit="cm" x="28.42735" y="8.25" z="-1.273705"/>
+        <position name="heavy_top_Lead_v155" unit="cm" x="28.35828" y="8.25" z="-1.042225"/>
+        <position name="heavy_top_Lead_v156" unit="cm" x="28.26719" y="8.25" z="-0.8184914"/>
+        <position name="heavy_top_Lead_v157" unit="cm" x="28.15492" y="8.25" z="-0.6045945"/>
+        <position name="heavy_top_Lead_v158" unit="cm" x="28.02254" y="8.25" z="-0.402531"/>
+        <position name="heavy_top_Lead_v159" unit="cm" x="27.87128" y="8.25" z="-0.2141875"/>
+        <position name="heavy_top_Lead_v160" unit="cm" x="27.70254" y="8.25" z="-0.04132249"/>
+        <position name="heavy_top_Lead_v161" unit="cm" x="27.51791" y="8.25" z="0.11445"/>
+        <position name="heavy_top_Lead_v162" unit="cm" x="27.3191" y="8.25" z="0.2516757"/>
+        <position name="heavy_top_Lead_v163" unit="cm" x="27.10798" y="8.25" z="0.3690732"/>
+        <position name="heavy_top_Lead_v164" unit="cm" x="26.88651" y="8.25" z="0.4655464"/>
+        <position name="heavy_top_Lead_v165" unit="cm" x="26.65677" y="8.25" z="0.5401947"/>
+        <position name="heavy_top_Lead_v166" unit="cm" x="26.42089" y="8.25" z="0.592321"/>
+        <position name="heavy_top_Lead_v167" unit="cm" x="26.18109" y="8.25" z="0.6214387"/>
+        <position name="heavy_top_Lead_v168" unit="cm" x="64.8" y="5.0" z="38.72801"/>
+        <position name="heavy_top_Lead_v169" unit="cm" x="64.8" y="5.0" z="23.74801"/>
+        <position name="heavy_top_Lead_v170" unit="cm" x="64.8" y="9.0" z="38.72801"/>
+        <position name="heavy_top_Lead_v171" unit="cm" x="64.8" y="9.0" z="23.74801"/>
+        <position name="heavy_top_Lead_v172" unit="cm" x="45.3" y="5.0" z="38.72801"/>
+        <position name="heavy_top_Lead_v173" unit="cm" x="45.3" y="9.0" z="38.72801"/>
+        <position name="heavy_top_Lead_v174" unit="cm" x="45.3" y="5.0" z="33.04726"/>
+        <position name="heavy_top_Lead_v175" unit="cm" x="45.3" y="9.0" z="33.04726"/>
+        <position name="heavy_top_Lead_v176" unit="cm" x="52.52012" y="5.0" z="23.74801"/>
+        <position name="heavy_top_Lead_v177" unit="cm" x="52.52012" y="9.0" z="23.74801"/>
+        <position name="heavy_top_Lead_v178" unit="cm" x="45.5685" y="5.0" z="33.04968"/>
+        <position name="heavy_top_Lead_v179" unit="cm" x="45.83691" y="5.0" z="33.04222"/>
+        <position name="heavy_top_Lead_v180" unit="cm" x="46.10486" y="5.0" z="33.0249"/>
+        <position name="heavy_top_Lead_v181" unit="cm" x="46.37199" y="5.0" z="32.99773"/>
+        <position name="heavy_top_Lead_v182" unit="cm" x="46.63794" y="5.0" z="32.96076"/>
+        <position name="heavy_top_Lead_v183" unit="cm" x="46.90236" y="5.0" z="32.91403"/>
+        <position name="heavy_top_Lead_v184" unit="cm" x="47.16487" y="5.0" z="32.85762"/>
+        <position name="heavy_top_Lead_v185" unit="cm" x="47.42514" y="5.0" z="32.79158"/>
+        <position name="heavy_top_Lead_v186" unit="cm" x="47.6828" y="5.0" z="32.71602"/>
+        <position name="heavy_top_Lead_v187" unit="cm" x="47.9375" y="5.0" z="32.63103"/>
+        <position name="heavy_top_Lead_v188" unit="cm" x="48.18891" y="5.0" z="32.53673"/>
+        <position name="heavy_top_Lead_v189" unit="cm" x="48.43668" y="5.0" z="32.43325"/>
+        <position name="heavy_top_Lead_v190" unit="cm" x="48.68048" y="5.0" z="32.32073"/>
+        <position name="heavy_top_Lead_v191" unit="cm" x="48.91997" y="5.0" z="32.19932"/>
+        <position name="heavy_top_Lead_v192" unit="cm" x="49.15484" y="5.0" z="32.06919"/>
+        <position name="heavy_top_Lead_v193" unit="cm" x="49.38476" y="5.0" z="31.9305"/>
+        <position name="heavy_top_Lead_v194" unit="cm" x="49.60943" y="5.0" z="31.78346"/>
+        <position name="heavy_top_Lead_v195" unit="cm" x="49.82854" y="5.0" z="31.62825"/>
+        <position name="heavy_top_Lead_v196" unit="cm" x="50.04179" y="5.0" z="31.46508"/>
+        <position name="heavy_top_Lead_v197" unit="cm" x="50.24889" y="5.0" z="31.29419"/>
+        <position name="heavy_top_Lead_v198" unit="cm" x="50.44957" y="5.0" z="31.11579"/>
+        <position name="heavy_top_Lead_v199" unit="cm" x="50.64356" y="5.0" z="30.93014"/>
+        <position name="heavy_top_Lead_v200" unit="cm" x="50.83058" y="5.0" z="30.73747"/>
+        <position name="heavy_top_Lead_v201" unit="cm" x="51.0104" y="5.0" z="30.53806"/>
+        <position name="heavy_top_Lead_v202" unit="cm" x="51.18276" y="5.0" z="30.33217"/>
+        <position name="heavy_top_Lead_v203" unit="cm" x="51.34743" y="5.0" z="30.12008"/>
+        <position name="heavy_top_Lead_v204" unit="cm" x="51.50419" y="5.0" z="29.90208"/>
+        <position name="heavy_top_Lead_v205" unit="cm" x="51.65282" y="5.0" z="29.67846"/>
+        <position name="heavy_top_Lead_v206" unit="cm" x="51.79313" y="5.0" z="29.44953"/>
+        <position name="heavy_top_Lead_v207" unit="cm" x="51.92493" y="5.0" z="29.21559"/>
+        <position name="heavy_top_Lead_v208" unit="cm" x="52.04803" y="5.0" z="28.97696"/>
+        <position name="heavy_top_Lead_v209" unit="cm" x="52.16228" y="5.0" z="28.73397"/>
+        <position name="heavy_top_Lead_v210" unit="cm" x="52.26751" y="5.0" z="28.48693"/>
+        <position name="heavy_top_Lead_v211" unit="cm" x="52.36359" y="5.0" z="28.2362"/>
+        <position name="heavy_top_Lead_v212" unit="cm" x="52.45038" y="5.0" z="27.9821"/>
+        <position name="heavy_top_Lead_v213" unit="cm" x="52.52776" y="5.0" z="27.72499"/>
+        <position name="heavy_top_Lead_v214" unit="cm" x="52.59564" y="5.0" z="27.4652"/>
+        <position name="heavy_top_Lead_v215" unit="cm" x="52.65392" y="5.0" z="27.20309"/>
+        <position name="heavy_top_Lead_v216" unit="cm" x="52.70252" y="5.0" z="26.93901"/>
+        <position name="heavy_top_Lead_v217" unit="cm" x="52.74137" y="5.0" z="26.67333"/>
+        <position name="heavy_top_Lead_v218" unit="cm" x="52.77043" y="5.0" z="26.40639"/>
+        <position name="heavy_top_Lead_v219" unit="cm" x="52.78965" y="5.0" z="26.13857"/>
+        <position name="heavy_top_Lead_v220" unit="cm" x="52.79901" y="5.0" z="25.87022"/>
+        <position name="heavy_top_Lead_v221" unit="cm" x="52.79849" y="5.0" z="25.60171"/>
+        <position name="heavy_top_Lead_v222" unit="cm" x="52.7881" y="5.0" z="25.3334"/>
+        <position name="heavy_top_Lead_v223" unit="cm" x="52.76785" y="5.0" z="25.06566"/>
+        <position name="heavy_top_Lead_v224" unit="cm" x="52.73777" y="5.0" z="24.79884"/>
+        <position name="heavy_top_Lead_v225" unit="cm" x="52.69789" y="5.0" z="24.5333"/>
+        <position name="heavy_top_Lead_v226" unit="cm" x="52.64828" y="5.0" z="24.26942"/>
+        <position name="heavy_top_Lead_v227" unit="cm" x="52.58899" y="5.0" z="24.00753"/>
+        <position name="heavy_top_Lead_v228" unit="cm" x="52.58899" y="9.0" z="24.00753"/>
+        <position name="heavy_top_Lead_v229" unit="cm" x="52.64828" y="9.0" z="24.26942"/>
+        <position name="heavy_top_Lead_v230" unit="cm" x="52.69789" y="9.0" z="24.5333"/>
+        <position name="heavy_top_Lead_v231" unit="cm" x="52.73777" y="9.0" z="24.79884"/>
+        <position name="heavy_top_Lead_v232" unit="cm" x="52.76785" y="9.0" z="25.06566"/>
+        <position name="heavy_top_Lead_v233" unit="cm" x="52.7881" y="9.0" z="25.3334"/>
+        <position name="heavy_top_Lead_v234" unit="cm" x="52.79849" y="9.0" z="25.60171"/>
+        <position name="heavy_top_Lead_v235" unit="cm" x="52.79901" y="9.0" z="25.87022"/>
+        <position name="heavy_top_Lead_v236" unit="cm" x="52.78965" y="9.0" z="26.13857"/>
+        <position name="heavy_top_Lead_v237" unit="cm" x="52.77043" y="9.0" z="26.40639"/>
+        <position name="heavy_top_Lead_v238" unit="cm" x="52.74137" y="9.0" z="26.67333"/>
+        <position name="heavy_top_Lead_v239" unit="cm" x="52.70252" y="9.0" z="26.93901"/>
+        <position name="heavy_top_Lead_v240" unit="cm" x="52.65392" y="9.0" z="27.20309"/>
+        <position name="heavy_top_Lead_v241" unit="cm" x="52.59564" y="9.0" z="27.4652"/>
+        <position name="heavy_top_Lead_v242" unit="cm" x="52.52776" y="9.0" z="27.72499"/>
+        <position name="heavy_top_Lead_v243" unit="cm" x="52.45038" y="9.0" z="27.9821"/>
+        <position name="heavy_top_Lead_v244" unit="cm" x="52.36359" y="9.0" z="28.2362"/>
+        <position name="heavy_top_Lead_v245" unit="cm" x="52.26751" y="9.0" z="28.48693"/>
+        <position name="heavy_top_Lead_v246" unit="cm" x="52.16228" y="9.0" z="28.73397"/>
+        <position name="heavy_top_Lead_v247" unit="cm" x="52.04803" y="9.0" z="28.97696"/>
+        <position name="heavy_top_Lead_v248" unit="cm" x="51.92493" y="9.0" z="29.21559"/>
+        <position name="heavy_top_Lead_v249" unit="cm" x="51.79313" y="9.0" z="29.44953"/>
+        <position name="heavy_top_Lead_v250" unit="cm" x="51.65282" y="9.0" z="29.67846"/>
+        <position name="heavy_top_Lead_v251" unit="cm" x="51.50419" y="9.0" z="29.90208"/>
+        <position name="heavy_top_Lead_v252" unit="cm" x="51.34743" y="9.0" z="30.12008"/>
+        <position name="heavy_top_Lead_v253" unit="cm" x="51.18276" y="9.0" z="30.33217"/>
+        <position name="heavy_top_Lead_v254" unit="cm" x="51.0104" y="9.0" z="30.53806"/>
+        <position name="heavy_top_Lead_v255" unit="cm" x="50.83058" y="9.0" z="30.73747"/>
+        <position name="heavy_top_Lead_v256" unit="cm" x="50.64356" y="9.0" z="30.93014"/>
+        <position name="heavy_top_Lead_v257" unit="cm" x="50.44957" y="9.0" z="31.11579"/>
+        <position name="heavy_top_Lead_v258" unit="cm" x="50.24889" y="9.0" z="31.29419"/>
+        <position name="heavy_top_Lead_v259" unit="cm" x="50.04179" y="9.0" z="31.46508"/>
+        <position name="heavy_top_Lead_v260" unit="cm" x="49.82854" y="9.0" z="31.62825"/>
+        <position name="heavy_top_Lead_v261" unit="cm" x="49.60943" y="9.0" z="31.78346"/>
+        <position name="heavy_top_Lead_v262" unit="cm" x="49.38476" y="9.0" z="31.9305"/>
+        <position name="heavy_top_Lead_v263" unit="cm" x="49.15484" y="9.0" z="32.06919"/>
+        <position name="heavy_top_Lead_v264" unit="cm" x="48.91997" y="9.0" z="32.19932"/>
+        <position name="heavy_top_Lead_v265" unit="cm" x="48.68048" y="9.0" z="32.32073"/>
+        <position name="heavy_top_Lead_v266" unit="cm" x="48.43668" y="9.0" z="32.43325"/>
+        <position name="heavy_top_Lead_v267" unit="cm" x="48.18891" y="9.0" z="32.53673"/>
+        <position name="heavy_top_Lead_v268" unit="cm" x="47.9375" y="9.0" z="32.63103"/>
+        <position name="heavy_top_Lead_v269" unit="cm" x="47.6828" y="9.0" z="32.71602"/>
+        <position name="heavy_top_Lead_v270" unit="cm" x="47.42514" y="9.0" z="32.79158"/>
+        <position name="heavy_top_Lead_v271" unit="cm" x="47.16487" y="9.0" z="32.85762"/>
+        <position name="heavy_top_Lead_v272" unit="cm" x="46.90236" y="9.0" z="32.91403"/>
+        <position name="heavy_top_Lead_v273" unit="cm" x="46.63794" y="9.0" z="32.96076"/>
+        <position name="heavy_top_Lead_v274" unit="cm" x="46.37199" y="9.0" z="32.99773"/>
+        <position name="heavy_top_Lead_v275" unit="cm" x="46.10486" y="9.0" z="33.0249"/>
+        <position name="heavy_top_Lead_v276" unit="cm" x="45.83691" y="9.0" z="33.04222"/>
+        <position name="heavy_top_Lead_v277" unit="cm" x="45.5685" y="9.0" z="33.04968"/>
+    </define>
+
+    <solids>
+        <tessellated aunit="deg" lunit="cm" name="heavy_top_Lead-SOL">
+             <triangular vertex1="heavy_top_Lead_v0" vertex2="heavy_top_Lead_v1" vertex3="heavy_top_Lead_v2"/>
+             <triangular vertex1="heavy_top_Lead_v2" vertex2="heavy_top_Lead_v1" vertex3="heavy_top_Lead_v3"/>
+             <triangular vertex1="heavy_top_Lead_v3" vertex2="heavy_top_Lead_v1" vertex3="heavy_top_Lead_v4"/>
+             <triangular vertex1="heavy_top_Lead_v4" vertex2="heavy_top_Lead_v1" vertex3="heavy_top_Lead_v5"/>
+             <triangular vertex1="heavy_top_Lead_v4" vertex2="heavy_top_Lead_v5" vertex3="heavy_top_Lead_v6"/>
+             <triangular vertex1="heavy_top_Lead_v6" vertex2="heavy_top_Lead_v5" vertex3="heavy_top_Lead_v7"/>
+             <triangular vertex1="heavy_top_Lead_v6" vertex2="heavy_top_Lead_v7" vertex3="heavy_top_Lead_v8"/>
+             <triangular vertex1="heavy_top_Lead_v8" vertex2="heavy_top_Lead_v7" vertex3="heavy_top_Lead_v9"/>
+             <triangular vertex1="heavy_top_Lead_v8" vertex2="heavy_top_Lead_v9" vertex3="heavy_top_Lead_v10"/>
+             <triangular vertex1="heavy_top_Lead_v10" vertex2="heavy_top_Lead_v9" vertex3="heavy_top_Lead_v11"/>
+             <triangular vertex1="heavy_top_Lead_v10" vertex2="heavy_top_Lead_v11" vertex3="heavy_top_Lead_v12"/>
+             <triangular vertex1="heavy_top_Lead_v13" vertex2="heavy_top_Lead_v14" vertex3="heavy_top_Lead_v1"/>
+             <triangular vertex1="heavy_top_Lead_v1" vertex2="heavy_top_Lead_v14" vertex3="heavy_top_Lead_v15"/>
+             <triangular vertex1="heavy_top_Lead_v1" vertex2="heavy_top_Lead_v15" vertex3="heavy_top_Lead_v16"/>
+             <triangular vertex1="heavy_top_Lead_v17" vertex2="heavy_top_Lead_v18" vertex3="heavy_top_Lead_v13"/>
+             <triangular vertex1="heavy_top_Lead_v13" vertex2="heavy_top_Lead_v18" vertex3="heavy_top_Lead_v19"/>
+             <triangular vertex1="heavy_top_Lead_v13" vertex2="heavy_top_Lead_v19" vertex3="heavy_top_Lead_v20"/>
+             <triangular vertex1="heavy_top_Lead_v20" vertex2="heavy_top_Lead_v21" vertex3="heavy_top_Lead_v13"/>
+             <triangular vertex1="heavy_top_Lead_v13" vertex2="heavy_top_Lead_v21" vertex3="heavy_top_Lead_v22"/>
+             <triangular vertex1="heavy_top_Lead_v13" vertex2="heavy_top_Lead_v22" vertex3="heavy_top_Lead_v23"/>
+             <triangular vertex1="heavy_top_Lead_v23" vertex2="heavy_top_Lead_v24" vertex3="heavy_top_Lead_v13"/>
+             <triangular vertex1="heavy_top_Lead_v13" vertex2="heavy_top_Lead_v24" vertex3="heavy_top_Lead_v25"/>
+             <triangular vertex1="heavy_top_Lead_v13" vertex2="heavy_top_Lead_v25" vertex3="heavy_top_Lead_v26"/>
+             <triangular vertex1="heavy_top_Lead_v26" vertex2="heavy_top_Lead_v27" vertex3="heavy_top_Lead_v13"/>
+             <triangular vertex1="heavy_top_Lead_v13" vertex2="heavy_top_Lead_v27" vertex3="heavy_top_Lead_v14"/>
+             <triangular vertex1="heavy_top_Lead_v16" vertex2="heavy_top_Lead_v28" vertex3="heavy_top_Lead_v1"/>
+             <triangular vertex1="heavy_top_Lead_v1" vertex2="heavy_top_Lead_v28" vertex3="heavy_top_Lead_v29"/>
+             <triangular vertex1="heavy_top_Lead_v1" vertex2="heavy_top_Lead_v29" vertex3="heavy_top_Lead_v30"/>
+             <triangular vertex1="heavy_top_Lead_v30" vertex2="heavy_top_Lead_v31" vertex3="heavy_top_Lead_v1"/>
+             <triangular vertex1="heavy_top_Lead_v1" vertex2="heavy_top_Lead_v31" vertex3="heavy_top_Lead_v32"/>
+             <triangular vertex1="heavy_top_Lead_v1" vertex2="heavy_top_Lead_v32" vertex3="heavy_top_Lead_v33"/>
+             <triangular vertex1="heavy_top_Lead_v33" vertex2="heavy_top_Lead_v34" vertex3="heavy_top_Lead_v1"/>
+             <triangular vertex1="heavy_top_Lead_v1" vertex2="heavy_top_Lead_v34" vertex3="heavy_top_Lead_v35"/>
+             <triangular vertex1="heavy_top_Lead_v1" vertex2="heavy_top_Lead_v35" vertex3="heavy_top_Lead_v5"/>
+             <triangular vertex1="heavy_top_Lead_v10" vertex2="heavy_top_Lead_v12" vertex3="heavy_top_Lead_v36"/>
+             <triangular vertex1="heavy_top_Lead_v36" vertex2="heavy_top_Lead_v12" vertex3="heavy_top_Lead_v37"/>
+             <triangular vertex1="heavy_top_Lead_v36" vertex2="heavy_top_Lead_v37" vertex3="heavy_top_Lead_v38"/>
+             <triangular vertex1="heavy_top_Lead_v38" vertex2="heavy_top_Lead_v37" vertex3="heavy_top_Lead_v39"/>
+             <triangular vertex1="heavy_top_Lead_v38" vertex2="heavy_top_Lead_v39" vertex3="heavy_top_Lead_v40"/>
+             <triangular vertex1="heavy_top_Lead_v40" vertex2="heavy_top_Lead_v39" vertex3="heavy_top_Lead_v41"/>
+             <triangular vertex1="heavy_top_Lead_v40" vertex2="heavy_top_Lead_v41" vertex3="heavy_top_Lead_v42"/>
+             <triangular vertex1="heavy_top_Lead_v42" vertex2="heavy_top_Lead_v41" vertex3="heavy_top_Lead_v43"/>
+             <triangular vertex1="heavy_top_Lead_v42" vertex2="heavy_top_Lead_v43" vertex3="heavy_top_Lead_v44"/>
+             <triangular vertex1="heavy_top_Lead_v44" vertex2="heavy_top_Lead_v43" vertex3="heavy_top_Lead_v45"/>
+             <triangular vertex1="heavy_top_Lead_v44" vertex2="heavy_top_Lead_v45" vertex3="heavy_top_Lead_v46"/>
+             <triangular vertex1="heavy_top_Lead_v44" vertex2="heavy_top_Lead_v46" vertex3="heavy_top_Lead_v47"/>
+             <triangular vertex1="heavy_top_Lead_v47" vertex2="heavy_top_Lead_v46" vertex3="heavy_top_Lead_v48"/>
+             <triangular vertex1="heavy_top_Lead_v47" vertex2="heavy_top_Lead_v48" vertex3="heavy_top_Lead_v49"/>
+             <triangular vertex1="heavy_top_Lead_v49" vertex2="heavy_top_Lead_v48" vertex3="heavy_top_Lead_v50"/>
+             <triangular vertex1="heavy_top_Lead_v49" vertex2="heavy_top_Lead_v50" vertex3="heavy_top_Lead_v51"/>
+             <triangular vertex1="heavy_top_Lead_v51" vertex2="heavy_top_Lead_v50" vertex3="heavy_top_Lead_v52"/>
+             <triangular vertex1="heavy_top_Lead_v51" vertex2="heavy_top_Lead_v52" vertex3="heavy_top_Lead_v53"/>
+             <triangular vertex1="heavy_top_Lead_v53" vertex2="heavy_top_Lead_v52" vertex3="heavy_top_Lead_v54"/>
+             <triangular vertex1="heavy_top_Lead_v53" vertex2="heavy_top_Lead_v54" vertex3="heavy_top_Lead_v55"/>
+             <triangular vertex1="heavy_top_Lead_v53" vertex2="heavy_top_Lead_v55" vertex3="heavy_top_Lead_v56"/>
+             <triangular vertex1="heavy_top_Lead_v56" vertex2="heavy_top_Lead_v55" vertex3="heavy_top_Lead_v57"/>
+             <triangular vertex1="heavy_top_Lead_v56" vertex2="heavy_top_Lead_v57" vertex3="heavy_top_Lead_v58"/>
+             <triangular vertex1="heavy_top_Lead_v58" vertex2="heavy_top_Lead_v57" vertex3="heavy_top_Lead_v59"/>
+             <triangular vertex1="heavy_top_Lead_v58" vertex2="heavy_top_Lead_v59" vertex3="heavy_top_Lead_v60"/>
+             <triangular vertex1="heavy_top_Lead_v58" vertex2="heavy_top_Lead_v60" vertex3="heavy_top_Lead_v61"/>
+             <triangular vertex1="heavy_top_Lead_v61" vertex2="heavy_top_Lead_v60" vertex3="heavy_top_Lead_v62"/>
+             <triangular vertex1="heavy_top_Lead_v61" vertex2="heavy_top_Lead_v62" vertex3="heavy_top_Lead_v63"/>
+             <triangular vertex1="heavy_top_Lead_v61" vertex2="heavy_top_Lead_v63" vertex3="heavy_top_Lead_v64"/>
+             <triangular vertex1="heavy_top_Lead_v64" vertex2="heavy_top_Lead_v63" vertex3="heavy_top_Lead_v65"/>
+             <triangular vertex1="heavy_top_Lead_v64" vertex2="heavy_top_Lead_v65" vertex3="heavy_top_Lead_v66"/>
+             <triangular vertex1="heavy_top_Lead_v64" vertex2="heavy_top_Lead_v66" vertex3="heavy_top_Lead_v67"/>
+             <triangular vertex1="heavy_top_Lead_v67" vertex2="heavy_top_Lead_v66" vertex3="heavy_top_Lead_v68"/>
+             <triangular vertex1="heavy_top_Lead_v67" vertex2="heavy_top_Lead_v68" vertex3="heavy_top_Lead_v69"/>
+             <triangular vertex1="heavy_top_Lead_v69" vertex2="heavy_top_Lead_v70" vertex3="heavy_top_Lead_v67"/>
+             <triangular vertex1="heavy_top_Lead_v67" vertex2="heavy_top_Lead_v70" vertex3="heavy_top_Lead_v71"/>
+             <triangular vertex1="heavy_top_Lead_v67" vertex2="heavy_top_Lead_v71" vertex3="heavy_top_Lead_v72"/>
+             <triangular vertex1="heavy_top_Lead_v72" vertex2="heavy_top_Lead_v73" vertex3="heavy_top_Lead_v67"/>
+             <triangular vertex1="heavy_top_Lead_v67" vertex2="heavy_top_Lead_v73" vertex3="heavy_top_Lead_v74"/>
+             <triangular vertex1="heavy_top_Lead_v67" vertex2="heavy_top_Lead_v74" vertex3="heavy_top_Lead_v75"/>
+             <triangular vertex1="heavy_top_Lead_v76" vertex2="heavy_top_Lead_v77" vertex3="heavy_top_Lead_v78"/>
+             <triangular vertex1="heavy_top_Lead_v78" vertex2="heavy_top_Lead_v77" vertex3="heavy_top_Lead_v79"/>
+             <triangular vertex1="heavy_top_Lead_v78" vertex2="heavy_top_Lead_v79" vertex3="heavy_top_Lead_v80"/>
+             <triangular vertex1="heavy_top_Lead_v78" vertex2="heavy_top_Lead_v80" vertex3="heavy_top_Lead_v81"/>
+             <triangular vertex1="heavy_top_Lead_v81" vertex2="heavy_top_Lead_v80" vertex3="heavy_top_Lead_v82"/>
+             <triangular vertex1="heavy_top_Lead_v81" vertex2="heavy_top_Lead_v82" vertex3="heavy_top_Lead_v83"/>
+             <triangular vertex1="heavy_top_Lead_v83" vertex2="heavy_top_Lead_v82" vertex3="heavy_top_Lead_v84"/>
+             <triangular vertex1="heavy_top_Lead_v83" vertex2="heavy_top_Lead_v84" vertex3="heavy_top_Lead_v85"/>
+             <triangular vertex1="heavy_top_Lead_v85" vertex2="heavy_top_Lead_v84" vertex3="heavy_top_Lead_v86"/>
+             <triangular vertex1="heavy_top_Lead_v85" vertex2="heavy_top_Lead_v86" vertex3="heavy_top_Lead_v87"/>
+             <triangular vertex1="heavy_top_Lead_v87" vertex2="heavy_top_Lead_v86" vertex3="heavy_top_Lead_v88"/>
+             <triangular vertex1="heavy_top_Lead_v88" vertex2="heavy_top_Lead_v86" vertex3="heavy_top_Lead_v89"/>
+             <triangular vertex1="heavy_top_Lead_v88" vertex2="heavy_top_Lead_v89" vertex3="heavy_top_Lead_v90"/>
+             <triangular vertex1="heavy_top_Lead_v90" vertex2="heavy_top_Lead_v89" vertex3="heavy_top_Lead_v91"/>
+             <triangular vertex1="heavy_top_Lead_v90" vertex2="heavy_top_Lead_v91" vertex3="heavy_top_Lead_v92"/>
+             <triangular vertex1="heavy_top_Lead_v92" vertex2="heavy_top_Lead_v91" vertex3="heavy_top_Lead_v93"/>
+             <triangular vertex1="heavy_top_Lead_v92" vertex2="heavy_top_Lead_v93" vertex3="heavy_top_Lead_v94"/>
+             <triangular vertex1="heavy_top_Lead_v94" vertex2="heavy_top_Lead_v93" vertex3="heavy_top_Lead_v95"/>
+             <triangular vertex1="heavy_top_Lead_v94" vertex2="heavy_top_Lead_v95" vertex3="heavy_top_Lead_v96"/>
+             <triangular vertex1="heavy_top_Lead_v96" vertex2="heavy_top_Lead_v95" vertex3="heavy_top_Lead_v97"/>
+             <triangular vertex1="heavy_top_Lead_v96" vertex2="heavy_top_Lead_v97" vertex3="heavy_top_Lead_v98"/>
+             <triangular vertex1="heavy_top_Lead_v98" vertex2="heavy_top_Lead_v97" vertex3="heavy_top_Lead_v99"/>
+             <triangular vertex1="heavy_top_Lead_v99" vertex2="heavy_top_Lead_v97" vertex3="heavy_top_Lead_v100"/>
+             <triangular vertex1="heavy_top_Lead_v99" vertex2="heavy_top_Lead_v100" vertex3="heavy_top_Lead_v101"/>
+             <triangular vertex1="heavy_top_Lead_v101" vertex2="heavy_top_Lead_v100" vertex3="heavy_top_Lead_v102"/>
+             <triangular vertex1="heavy_top_Lead_v101" vertex2="heavy_top_Lead_v102" vertex3="heavy_top_Lead_v103"/>
+             <triangular vertex1="heavy_top_Lead_v103" vertex2="heavy_top_Lead_v102" vertex3="heavy_top_Lead_v104"/>
+             <triangular vertex1="heavy_top_Lead_v103" vertex2="heavy_top_Lead_v104" vertex3="heavy_top_Lead_v105"/>
+             <triangular vertex1="heavy_top_Lead_v105" vertex2="heavy_top_Lead_v104" vertex3="heavy_top_Lead_v106"/>
+             <triangular vertex1="heavy_top_Lead_v105" vertex2="heavy_top_Lead_v106" vertex3="heavy_top_Lead_v107"/>
+             <triangular vertex1="heavy_top_Lead_v107" vertex2="heavy_top_Lead_v106" vertex3="heavy_top_Lead_v108"/>
+             <triangular vertex1="heavy_top_Lead_v108" vertex2="heavy_top_Lead_v106" vertex3="heavy_top_Lead_v109"/>
+             <triangular vertex1="heavy_top_Lead_v108" vertex2="heavy_top_Lead_v109" vertex3="heavy_top_Lead_v110"/>
+             <triangular vertex1="heavy_top_Lead_v110" vertex2="heavy_top_Lead_v109" vertex3="heavy_top_Lead_v111"/>
+             <triangular vertex1="heavy_top_Lead_v110" vertex2="heavy_top_Lead_v111" vertex3="heavy_top_Lead_v112"/>
+             <triangular vertex1="heavy_top_Lead_v112" vertex2="heavy_top_Lead_v111" vertex3="heavy_top_Lead_v113"/>
+             <triangular vertex1="heavy_top_Lead_v113" vertex2="heavy_top_Lead_v111" vertex3="heavy_top_Lead_v114"/>
+             <triangular vertex1="heavy_top_Lead_v113" vertex2="heavy_top_Lead_v114" vertex3="heavy_top_Lead_v115"/>
+             <triangular vertex1="heavy_top_Lead_v115" vertex2="heavy_top_Lead_v114" vertex3="heavy_top_Lead_v116"/>
+             <triangular vertex1="heavy_top_Lead_v116" vertex2="heavy_top_Lead_v114" vertex3="heavy_top_Lead_v117"/>
+             <triangular vertex1="heavy_top_Lead_v116" vertex2="heavy_top_Lead_v117" vertex3="heavy_top_Lead_v118"/>
+             <triangular vertex1="heavy_top_Lead_v118" vertex2="heavy_top_Lead_v117" vertex3="heavy_top_Lead_v119"/>
+             <triangular vertex1="heavy_top_Lead_v119" vertex2="heavy_top_Lead_v117" vertex3="heavy_top_Lead_v120"/>
+             <triangular vertex1="heavy_top_Lead_v119" vertex2="heavy_top_Lead_v120" vertex3="heavy_top_Lead_v121"/>
+             <triangular vertex1="heavy_top_Lead_v121" vertex2="heavy_top_Lead_v120" vertex3="heavy_top_Lead_v122"/>
+             <triangular vertex1="heavy_top_Lead_v122" vertex2="heavy_top_Lead_v120" vertex3="heavy_top_Lead_v123"/>
+             <triangular vertex1="heavy_top_Lead_v123" vertex2="heavy_top_Lead_v120" vertex3="heavy_top_Lead_v124"/>
+             <triangular vertex1="heavy_top_Lead_v124" vertex2="heavy_top_Lead_v120" vertex3="heavy_top_Lead_v125"/>
+             <triangular vertex1="heavy_top_Lead_v125" vertex2="heavy_top_Lead_v120" vertex3="heavy_top_Lead_v126"/>
+             <triangular vertex1="heavy_top_Lead_v126" vertex2="heavy_top_Lead_v120" vertex3="heavy_top_Lead_v127"/>
+             <triangular vertex1="heavy_top_Lead_v127" vertex2="heavy_top_Lead_v120" vertex3="heavy_top_Lead_v128"/>
+             <triangular vertex1="heavy_top_Lead_v81" vertex2="heavy_top_Lead_v129" vertex3="heavy_top_Lead_v78"/>
+             <triangular vertex1="heavy_top_Lead_v78" vertex2="heavy_top_Lead_v129" vertex3="heavy_top_Lead_v130"/>
+             <triangular vertex1="heavy_top_Lead_v78" vertex2="heavy_top_Lead_v130" vertex3="heavy_top_Lead_v131"/>
+             <triangular vertex1="heavy_top_Lead_v131" vertex2="heavy_top_Lead_v132" vertex3="heavy_top_Lead_v78"/>
+             <triangular vertex1="heavy_top_Lead_v78" vertex2="heavy_top_Lead_v132" vertex3="heavy_top_Lead_v133"/>
+             <triangular vertex1="heavy_top_Lead_v78" vertex2="heavy_top_Lead_v133" vertex3="heavy_top_Lead_v134"/>
+             <triangular vertex1="heavy_top_Lead_v134" vertex2="heavy_top_Lead_v135" vertex3="heavy_top_Lead_v78"/>
+             <triangular vertex1="heavy_top_Lead_v78" vertex2="heavy_top_Lead_v135" vertex3="heavy_top_Lead_v136"/>
+             <triangular vertex1="heavy_top_Lead_v78" vertex2="heavy_top_Lead_v136" vertex3="heavy_top_Lead_v137"/>
+             <triangular vertex1="heavy_top_Lead_v137" vertex2="heavy_top_Lead_v138" vertex3="heavy_top_Lead_v78"/>
+             <triangular vertex1="heavy_top_Lead_v78" vertex2="heavy_top_Lead_v138" vertex3="heavy_top_Lead_v139"/>
+             <triangular vertex1="heavy_top_Lead_v78" vertex2="heavy_top_Lead_v139" vertex3="heavy_top_Lead_v140"/>
+             <triangular vertex1="heavy_top_Lead_v140" vertex2="heavy_top_Lead_v139" vertex3="heavy_top_Lead_v141"/>
+             <triangular vertex1="heavy_top_Lead_v140" vertex2="heavy_top_Lead_v141" vertex3="heavy_top_Lead_v142"/>
+             <triangular vertex1="heavy_top_Lead_v142" vertex2="heavy_top_Lead_v143" vertex3="heavy_top_Lead_v140"/>
+             <triangular vertex1="heavy_top_Lead_v140" vertex2="heavy_top_Lead_v143" vertex3="heavy_top_Lead_v144"/>
+             <triangular vertex1="heavy_top_Lead_v140" vertex2="heavy_top_Lead_v144" vertex3="heavy_top_Lead_v145"/>
+             <triangular vertex1="heavy_top_Lead_v145" vertex2="heavy_top_Lead_v146" vertex3="heavy_top_Lead_v140"/>
+             <triangular vertex1="heavy_top_Lead_v140" vertex2="heavy_top_Lead_v146" vertex3="heavy_top_Lead_v147"/>
+             <triangular vertex1="heavy_top_Lead_v140" vertex2="heavy_top_Lead_v147" vertex3="heavy_top_Lead_v148"/>
+             <triangular vertex1="heavy_top_Lead_v148" vertex2="heavy_top_Lead_v149" vertex3="heavy_top_Lead_v140"/>
+             <triangular vertex1="heavy_top_Lead_v140" vertex2="heavy_top_Lead_v149" vertex3="heavy_top_Lead_v150"/>
+             <triangular vertex1="heavy_top_Lead_v140" vertex2="heavy_top_Lead_v150" vertex3="heavy_top_Lead_v151"/>
+             <triangular vertex1="heavy_top_Lead_v13" vertex2="heavy_top_Lead_v1" vertex3="heavy_top_Lead_v140"/>
+             <triangular vertex1="heavy_top_Lead_v140" vertex2="heavy_top_Lead_v1" vertex3="heavy_top_Lead_v78"/>
+             <triangular vertex1="heavy_top_Lead_v17" vertex2="heavy_top_Lead_v13" vertex3="heavy_top_Lead_v151"/>
+             <triangular vertex1="heavy_top_Lead_v151" vertex2="heavy_top_Lead_v13" vertex3="heavy_top_Lead_v140"/>
+             <triangular vertex1="heavy_top_Lead_v127" vertex2="heavy_top_Lead_v74" vertex3="heavy_top_Lead_v126"/>
+             <triangular vertex1="heavy_top_Lead_v126" vertex2="heavy_top_Lead_v74" vertex3="heavy_top_Lead_v73"/>
+             <triangular vertex1="heavy_top_Lead_v126" vertex2="heavy_top_Lead_v73" vertex3="heavy_top_Lead_v125"/>
+             <triangular vertex1="heavy_top_Lead_v125" vertex2="heavy_top_Lead_v73" vertex3="heavy_top_Lead_v72"/>
+             <triangular vertex1="heavy_top_Lead_v125" vertex2="heavy_top_Lead_v72" vertex3="heavy_top_Lead_v71"/>
+             <triangular vertex1="heavy_top_Lead_v125" vertex2="heavy_top_Lead_v71" vertex3="heavy_top_Lead_v124"/>
+             <triangular vertex1="heavy_top_Lead_v124" vertex2="heavy_top_Lead_v71" vertex3="heavy_top_Lead_v70"/>
+             <triangular vertex1="heavy_top_Lead_v124" vertex2="heavy_top_Lead_v70" vertex3="heavy_top_Lead_v123"/>
+             <triangular vertex1="heavy_top_Lead_v123" vertex2="heavy_top_Lead_v70" vertex3="heavy_top_Lead_v69"/>
+             <triangular vertex1="heavy_top_Lead_v123" vertex2="heavy_top_Lead_v69" vertex3="heavy_top_Lead_v122"/>
+             <triangular vertex1="heavy_top_Lead_v122" vertex2="heavy_top_Lead_v69" vertex3="heavy_top_Lead_v68"/>
+             <triangular vertex1="heavy_top_Lead_v122" vertex2="heavy_top_Lead_v68" vertex3="heavy_top_Lead_v121"/>
+             <triangular vertex1="heavy_top_Lead_v121" vertex2="heavy_top_Lead_v68" vertex3="heavy_top_Lead_v66"/>
+             <triangular vertex1="heavy_top_Lead_v121" vertex2="heavy_top_Lead_v66" vertex3="heavy_top_Lead_v119"/>
+             <triangular vertex1="heavy_top_Lead_v119" vertex2="heavy_top_Lead_v66" vertex3="heavy_top_Lead_v65"/>
+             <triangular vertex1="heavy_top_Lead_v119" vertex2="heavy_top_Lead_v65" vertex3="heavy_top_Lead_v118"/>
+             <triangular vertex1="heavy_top_Lead_v118" vertex2="heavy_top_Lead_v65" vertex3="heavy_top_Lead_v63"/>
+             <triangular vertex1="heavy_top_Lead_v118" vertex2="heavy_top_Lead_v63" vertex3="heavy_top_Lead_v116"/>
+             <triangular vertex1="heavy_top_Lead_v116" vertex2="heavy_top_Lead_v63" vertex3="heavy_top_Lead_v62"/>
+             <triangular vertex1="heavy_top_Lead_v116" vertex2="heavy_top_Lead_v62" vertex3="heavy_top_Lead_v115"/>
+             <triangular vertex1="heavy_top_Lead_v115" vertex2="heavy_top_Lead_v62" vertex3="heavy_top_Lead_v60"/>
+             <triangular vertex1="heavy_top_Lead_v115" vertex2="heavy_top_Lead_v60" vertex3="heavy_top_Lead_v113"/>
+             <triangular vertex1="heavy_top_Lead_v113" vertex2="heavy_top_Lead_v60" vertex3="heavy_top_Lead_v59"/>
+             <triangular vertex1="heavy_top_Lead_v113" vertex2="heavy_top_Lead_v59" vertex3="heavy_top_Lead_v112"/>
+             <triangular vertex1="heavy_top_Lead_v112" vertex2="heavy_top_Lead_v59" vertex3="heavy_top_Lead_v57"/>
+             <triangular vertex1="heavy_top_Lead_v112" vertex2="heavy_top_Lead_v57" vertex3="heavy_top_Lead_v110"/>
+             <triangular vertex1="heavy_top_Lead_v110" vertex2="heavy_top_Lead_v57" vertex3="heavy_top_Lead_v55"/>
+             <triangular vertex1="heavy_top_Lead_v110" vertex2="heavy_top_Lead_v55" vertex3="heavy_top_Lead_v108"/>
+             <triangular vertex1="heavy_top_Lead_v108" vertex2="heavy_top_Lead_v55" vertex3="heavy_top_Lead_v54"/>
+             <triangular vertex1="heavy_top_Lead_v108" vertex2="heavy_top_Lead_v54" vertex3="heavy_top_Lead_v107"/>
+             <triangular vertex1="heavy_top_Lead_v107" vertex2="heavy_top_Lead_v54" vertex3="heavy_top_Lead_v52"/>
+             <triangular vertex1="heavy_top_Lead_v107" vertex2="heavy_top_Lead_v52" vertex3="heavy_top_Lead_v105"/>
+             <triangular vertex1="heavy_top_Lead_v105" vertex2="heavy_top_Lead_v52" vertex3="heavy_top_Lead_v50"/>
+             <triangular vertex1="heavy_top_Lead_v105" vertex2="heavy_top_Lead_v50" vertex3="heavy_top_Lead_v103"/>
+             <triangular vertex1="heavy_top_Lead_v103" vertex2="heavy_top_Lead_v50" vertex3="heavy_top_Lead_v48"/>
+             <triangular vertex1="heavy_top_Lead_v103" vertex2="heavy_top_Lead_v48" vertex3="heavy_top_Lead_v101"/>
+             <triangular vertex1="heavy_top_Lead_v101" vertex2="heavy_top_Lead_v48" vertex3="heavy_top_Lead_v46"/>
+             <triangular vertex1="heavy_top_Lead_v101" vertex2="heavy_top_Lead_v46" vertex3="heavy_top_Lead_v99"/>
+             <triangular vertex1="heavy_top_Lead_v99" vertex2="heavy_top_Lead_v46" vertex3="heavy_top_Lead_v45"/>
+             <triangular vertex1="heavy_top_Lead_v99" vertex2="heavy_top_Lead_v45" vertex3="heavy_top_Lead_v98"/>
+             <triangular vertex1="heavy_top_Lead_v98" vertex2="heavy_top_Lead_v45" vertex3="heavy_top_Lead_v43"/>
+             <triangular vertex1="heavy_top_Lead_v98" vertex2="heavy_top_Lead_v43" vertex3="heavy_top_Lead_v96"/>
+             <triangular vertex1="heavy_top_Lead_v96" vertex2="heavy_top_Lead_v43" vertex3="heavy_top_Lead_v41"/>
+             <triangular vertex1="heavy_top_Lead_v96" vertex2="heavy_top_Lead_v41" vertex3="heavy_top_Lead_v94"/>
+             <triangular vertex1="heavy_top_Lead_v94" vertex2="heavy_top_Lead_v41" vertex3="heavy_top_Lead_v39"/>
+             <triangular vertex1="heavy_top_Lead_v94" vertex2="heavy_top_Lead_v39" vertex3="heavy_top_Lead_v92"/>
+             <triangular vertex1="heavy_top_Lead_v92" vertex2="heavy_top_Lead_v39" vertex3="heavy_top_Lead_v37"/>
+             <triangular vertex1="heavy_top_Lead_v92" vertex2="heavy_top_Lead_v37" vertex3="heavy_top_Lead_v90"/>
+             <triangular vertex1="heavy_top_Lead_v90" vertex2="heavy_top_Lead_v37" vertex3="heavy_top_Lead_v12"/>
+             <triangular vertex1="heavy_top_Lead_v90" vertex2="heavy_top_Lead_v12" vertex3="heavy_top_Lead_v88"/>
+             <triangular vertex1="heavy_top_Lead_v88" vertex2="heavy_top_Lead_v12" vertex3="heavy_top_Lead_v11"/>
+             <triangular vertex1="heavy_top_Lead_v88" vertex2="heavy_top_Lead_v11" vertex3="heavy_top_Lead_v87"/>
+             <triangular vertex1="heavy_top_Lead_v87" vertex2="heavy_top_Lead_v11" vertex3="heavy_top_Lead_v9"/>
+             <triangular vertex1="heavy_top_Lead_v87" vertex2="heavy_top_Lead_v9" vertex3="heavy_top_Lead_v85"/>
+             <triangular vertex1="heavy_top_Lead_v85" vertex2="heavy_top_Lead_v9" vertex3="heavy_top_Lead_v7"/>
+             <triangular vertex1="heavy_top_Lead_v85" vertex2="heavy_top_Lead_v7" vertex3="heavy_top_Lead_v83"/>
+             <triangular vertex1="heavy_top_Lead_v83" vertex2="heavy_top_Lead_v7" vertex3="heavy_top_Lead_v5"/>
+             <triangular vertex1="heavy_top_Lead_v83" vertex2="heavy_top_Lead_v5" vertex3="heavy_top_Lead_v81"/>
+             <triangular vertex1="heavy_top_Lead_v81" vertex2="heavy_top_Lead_v5" vertex3="heavy_top_Lead_v35"/>
+             <triangular vertex1="heavy_top_Lead_v81" vertex2="heavy_top_Lead_v35" vertex3="heavy_top_Lead_v129"/>
+             <triangular vertex1="heavy_top_Lead_v129" vertex2="heavy_top_Lead_v35" vertex3="heavy_top_Lead_v34"/>
+             <triangular vertex1="heavy_top_Lead_v129" vertex2="heavy_top_Lead_v34" vertex3="heavy_top_Lead_v130"/>
+             <triangular vertex1="heavy_top_Lead_v130" vertex2="heavy_top_Lead_v34" vertex3="heavy_top_Lead_v33"/>
+             <triangular vertex1="heavy_top_Lead_v130" vertex2="heavy_top_Lead_v33" vertex3="heavy_top_Lead_v131"/>
+             <triangular vertex1="heavy_top_Lead_v131" vertex2="heavy_top_Lead_v33" vertex3="heavy_top_Lead_v32"/>
+             <triangular vertex1="heavy_top_Lead_v131" vertex2="heavy_top_Lead_v32" vertex3="heavy_top_Lead_v132"/>
+             <triangular vertex1="heavy_top_Lead_v132" vertex2="heavy_top_Lead_v32" vertex3="heavy_top_Lead_v31"/>
+             <triangular vertex1="heavy_top_Lead_v132" vertex2="heavy_top_Lead_v31" vertex3="heavy_top_Lead_v133"/>
+             <triangular vertex1="heavy_top_Lead_v133" vertex2="heavy_top_Lead_v31" vertex3="heavy_top_Lead_v30"/>
+             <triangular vertex1="heavy_top_Lead_v133" vertex2="heavy_top_Lead_v30" vertex3="heavy_top_Lead_v134"/>
+             <triangular vertex1="heavy_top_Lead_v134" vertex2="heavy_top_Lead_v30" vertex3="heavy_top_Lead_v29"/>
+             <triangular vertex1="heavy_top_Lead_v134" vertex2="heavy_top_Lead_v29" vertex3="heavy_top_Lead_v135"/>
+             <triangular vertex1="heavy_top_Lead_v135" vertex2="heavy_top_Lead_v29" vertex3="heavy_top_Lead_v28"/>
+             <triangular vertex1="heavy_top_Lead_v135" vertex2="heavy_top_Lead_v28" vertex3="heavy_top_Lead_v136"/>
+             <triangular vertex1="heavy_top_Lead_v136" vertex2="heavy_top_Lead_v28" vertex3="heavy_top_Lead_v16"/>
+             <triangular vertex1="heavy_top_Lead_v136" vertex2="heavy_top_Lead_v16" vertex3="heavy_top_Lead_v137"/>
+             <triangular vertex1="heavy_top_Lead_v137" vertex2="heavy_top_Lead_v16" vertex3="heavy_top_Lead_v15"/>
+             <triangular vertex1="heavy_top_Lead_v137" vertex2="heavy_top_Lead_v15" vertex3="heavy_top_Lead_v138"/>
+             <triangular vertex1="heavy_top_Lead_v138" vertex2="heavy_top_Lead_v15" vertex3="heavy_top_Lead_v14"/>
+             <triangular vertex1="heavy_top_Lead_v138" vertex2="heavy_top_Lead_v14" vertex3="heavy_top_Lead_v139"/>
+             <triangular vertex1="heavy_top_Lead_v139" vertex2="heavy_top_Lead_v14" vertex3="heavy_top_Lead_v27"/>
+             <triangular vertex1="heavy_top_Lead_v139" vertex2="heavy_top_Lead_v27" vertex3="heavy_top_Lead_v141"/>
+             <triangular vertex1="heavy_top_Lead_v141" vertex2="heavy_top_Lead_v27" vertex3="heavy_top_Lead_v26"/>
+             <triangular vertex1="heavy_top_Lead_v141" vertex2="heavy_top_Lead_v26" vertex3="heavy_top_Lead_v142"/>
+             <triangular vertex1="heavy_top_Lead_v142" vertex2="heavy_top_Lead_v26" vertex3="heavy_top_Lead_v25"/>
+             <triangular vertex1="heavy_top_Lead_v142" vertex2="heavy_top_Lead_v25" vertex3="heavy_top_Lead_v143"/>
+             <triangular vertex1="heavy_top_Lead_v143" vertex2="heavy_top_Lead_v25" vertex3="heavy_top_Lead_v24"/>
+             <triangular vertex1="heavy_top_Lead_v143" vertex2="heavy_top_Lead_v24" vertex3="heavy_top_Lead_v144"/>
+             <triangular vertex1="heavy_top_Lead_v144" vertex2="heavy_top_Lead_v24" vertex3="heavy_top_Lead_v23"/>
+             <triangular vertex1="heavy_top_Lead_v144" vertex2="heavy_top_Lead_v23" vertex3="heavy_top_Lead_v145"/>
+             <triangular vertex1="heavy_top_Lead_v145" vertex2="heavy_top_Lead_v23" vertex3="heavy_top_Lead_v22"/>
+             <triangular vertex1="heavy_top_Lead_v145" vertex2="heavy_top_Lead_v22" vertex3="heavy_top_Lead_v146"/>
+             <triangular vertex1="heavy_top_Lead_v146" vertex2="heavy_top_Lead_v22" vertex3="heavy_top_Lead_v21"/>
+             <triangular vertex1="heavy_top_Lead_v146" vertex2="heavy_top_Lead_v21" vertex3="heavy_top_Lead_v147"/>
+             <triangular vertex1="heavy_top_Lead_v147" vertex2="heavy_top_Lead_v21" vertex3="heavy_top_Lead_v20"/>
+             <triangular vertex1="heavy_top_Lead_v147" vertex2="heavy_top_Lead_v20" vertex3="heavy_top_Lead_v148"/>
+             <triangular vertex1="heavy_top_Lead_v148" vertex2="heavy_top_Lead_v20" vertex3="heavy_top_Lead_v19"/>
+             <triangular vertex1="heavy_top_Lead_v148" vertex2="heavy_top_Lead_v19" vertex3="heavy_top_Lead_v149"/>
+             <triangular vertex1="heavy_top_Lead_v149" vertex2="heavy_top_Lead_v19" vertex3="heavy_top_Lead_v18"/>
+             <triangular vertex1="heavy_top_Lead_v149" vertex2="heavy_top_Lead_v18" vertex3="heavy_top_Lead_v150"/>
+             <triangular vertex1="heavy_top_Lead_v150" vertex2="heavy_top_Lead_v18" vertex3="heavy_top_Lead_v17"/>
+             <triangular vertex1="heavy_top_Lead_v150" vertex2="heavy_top_Lead_v17" vertex3="heavy_top_Lead_v151"/>
+             <triangular vertex1="heavy_top_Lead_v75" vertex2="heavy_top_Lead_v74" vertex3="heavy_top_Lead_v128"/>
+             <triangular vertex1="heavy_top_Lead_v128" vertex2="heavy_top_Lead_v74" vertex3="heavy_top_Lead_v127"/>
+             <triangular vertex1="heavy_top_Lead_v67" vertex2="heavy_top_Lead_v75" vertex3="heavy_top_Lead_v120"/>
+             <triangular vertex1="heavy_top_Lead_v120" vertex2="heavy_top_Lead_v75" vertex3="heavy_top_Lead_v128"/>
+             <triangular vertex1="heavy_top_Lead_v64" vertex2="heavy_top_Lead_v67" vertex3="heavy_top_Lead_v117"/>
+             <triangular vertex1="heavy_top_Lead_v117" vertex2="heavy_top_Lead_v67" vertex3="heavy_top_Lead_v120"/>
+             <triangular vertex1="heavy_top_Lead_v64" vertex2="heavy_top_Lead_v117" vertex3="heavy_top_Lead_v61"/>
+             <triangular vertex1="heavy_top_Lead_v61" vertex2="heavy_top_Lead_v117" vertex3="heavy_top_Lead_v114"/>
+             <triangular vertex1="heavy_top_Lead_v77" vertex2="heavy_top_Lead_v2" vertex3="heavy_top_Lead_v152"/>
+             <triangular vertex1="heavy_top_Lead_v152" vertex2="heavy_top_Lead_v2" vertex3="heavy_top_Lead_v3"/>
+             <triangular vertex1="heavy_top_Lead_v152" vertex2="heavy_top_Lead_v3" vertex3="heavy_top_Lead_v79"/>
+             <triangular vertex1="heavy_top_Lead_v79" vertex2="heavy_top_Lead_v3" vertex3="heavy_top_Lead_v153"/>
+             <triangular vertex1="heavy_top_Lead_v79" vertex2="heavy_top_Lead_v153" vertex3="heavy_top_Lead_v80"/>
+             <triangular vertex1="heavy_top_Lead_v80" vertex2="heavy_top_Lead_v153" vertex3="heavy_top_Lead_v4"/>
+             <triangular vertex1="heavy_top_Lead_v80" vertex2="heavy_top_Lead_v4" vertex3="heavy_top_Lead_v154"/>
+             <triangular vertex1="heavy_top_Lead_v154" vertex2="heavy_top_Lead_v4" vertex3="heavy_top_Lead_v6"/>
+             <triangular vertex1="heavy_top_Lead_v154" vertex2="heavy_top_Lead_v6" vertex3="heavy_top_Lead_v82"/>
+             <triangular vertex1="heavy_top_Lead_v82" vertex2="heavy_top_Lead_v6" vertex3="heavy_top_Lead_v155"/>
+             <triangular vertex1="heavy_top_Lead_v82" vertex2="heavy_top_Lead_v155" vertex3="heavy_top_Lead_v84"/>
+             <triangular vertex1="heavy_top_Lead_v84" vertex2="heavy_top_Lead_v155" vertex3="heavy_top_Lead_v8"/>
+             <triangular vertex1="heavy_top_Lead_v84" vertex2="heavy_top_Lead_v8" vertex3="heavy_top_Lead_v156"/>
+             <triangular vertex1="heavy_top_Lead_v156" vertex2="heavy_top_Lead_v8" vertex3="heavy_top_Lead_v10"/>
+             <triangular vertex1="heavy_top_Lead_v156" vertex2="heavy_top_Lead_v10" vertex3="heavy_top_Lead_v157"/>
+             <triangular vertex1="heavy_top_Lead_v157" vertex2="heavy_top_Lead_v10" vertex3="heavy_top_Lead_v36"/>
+             <triangular vertex1="heavy_top_Lead_v157" vertex2="heavy_top_Lead_v36" vertex3="heavy_top_Lead_v158"/>
+             <triangular vertex1="heavy_top_Lead_v158" vertex2="heavy_top_Lead_v36" vertex3="heavy_top_Lead_v38"/>
+             <triangular vertex1="heavy_top_Lead_v158" vertex2="heavy_top_Lead_v38" vertex3="heavy_top_Lead_v159"/>
+             <triangular vertex1="heavy_top_Lead_v159" vertex2="heavy_top_Lead_v38" vertex3="heavy_top_Lead_v40"/>
+             <triangular vertex1="heavy_top_Lead_v159" vertex2="heavy_top_Lead_v40" vertex3="heavy_top_Lead_v160"/>
+             <triangular vertex1="heavy_top_Lead_v160" vertex2="heavy_top_Lead_v40" vertex3="heavy_top_Lead_v42"/>
+             <triangular vertex1="heavy_top_Lead_v160" vertex2="heavy_top_Lead_v42" vertex3="heavy_top_Lead_v161"/>
+             <triangular vertex1="heavy_top_Lead_v161" vertex2="heavy_top_Lead_v42" vertex3="heavy_top_Lead_v44"/>
+             <triangular vertex1="heavy_top_Lead_v161" vertex2="heavy_top_Lead_v44" vertex3="heavy_top_Lead_v162"/>
+             <triangular vertex1="heavy_top_Lead_v162" vertex2="heavy_top_Lead_v44" vertex3="heavy_top_Lead_v47"/>
+             <triangular vertex1="heavy_top_Lead_v162" vertex2="heavy_top_Lead_v47" vertex3="heavy_top_Lead_v49"/>
+             <triangular vertex1="heavy_top_Lead_v3" vertex2="heavy_top_Lead_v4" vertex3="heavy_top_Lead_v153"/>
+             <triangular vertex1="heavy_top_Lead_v6" vertex2="heavy_top_Lead_v8" vertex3="heavy_top_Lead_v155"/>
+             <triangular vertex1="heavy_top_Lead_v162" vertex2="heavy_top_Lead_v49" vertex3="heavy_top_Lead_v163"/>
+             <triangular vertex1="heavy_top_Lead_v163" vertex2="heavy_top_Lead_v49" vertex3="heavy_top_Lead_v51"/>
+             <triangular vertex1="heavy_top_Lead_v163" vertex2="heavy_top_Lead_v51" vertex3="heavy_top_Lead_v164"/>
+             <triangular vertex1="heavy_top_Lead_v164" vertex2="heavy_top_Lead_v51" vertex3="heavy_top_Lead_v53"/>
+             <triangular vertex1="heavy_top_Lead_v164" vertex2="heavy_top_Lead_v53" vertex3="heavy_top_Lead_v165"/>
+             <triangular vertex1="heavy_top_Lead_v165" vertex2="heavy_top_Lead_v53" vertex3="heavy_top_Lead_v56"/>
+             <triangular vertex1="heavy_top_Lead_v165" vertex2="heavy_top_Lead_v56" vertex3="heavy_top_Lead_v166"/>
+             <triangular vertex1="heavy_top_Lead_v166" vertex2="heavy_top_Lead_v56" vertex3="heavy_top_Lead_v58"/>
+             <triangular vertex1="heavy_top_Lead_v166" vertex2="heavy_top_Lead_v58" vertex3="heavy_top_Lead_v167"/>
+             <triangular vertex1="heavy_top_Lead_v167" vertex2="heavy_top_Lead_v58" vertex3="heavy_top_Lead_v61"/>
+             <triangular vertex1="heavy_top_Lead_v167" vertex2="heavy_top_Lead_v61" vertex3="heavy_top_Lead_v114"/>
+             <triangular vertex1="heavy_top_Lead_v114" vertex2="heavy_top_Lead_v111" vertex3="heavy_top_Lead_v167"/>
+             <triangular vertex1="heavy_top_Lead_v167" vertex2="heavy_top_Lead_v111" vertex3="heavy_top_Lead_v166"/>
+             <triangular vertex1="heavy_top_Lead_v111" vertex2="heavy_top_Lead_v109" vertex3="heavy_top_Lead_v166"/>
+             <triangular vertex1="heavy_top_Lead_v166" vertex2="heavy_top_Lead_v109" vertex3="heavy_top_Lead_v165"/>
+             <triangular vertex1="heavy_top_Lead_v109" vertex2="heavy_top_Lead_v106" vertex3="heavy_top_Lead_v165"/>
+             <triangular vertex1="heavy_top_Lead_v165" vertex2="heavy_top_Lead_v106" vertex3="heavy_top_Lead_v164"/>
+             <triangular vertex1="heavy_top_Lead_v106" vertex2="heavy_top_Lead_v104" vertex3="heavy_top_Lead_v164"/>
+             <triangular vertex1="heavy_top_Lead_v164" vertex2="heavy_top_Lead_v104" vertex3="heavy_top_Lead_v163"/>
+             <triangular vertex1="heavy_top_Lead_v104" vertex2="heavy_top_Lead_v102" vertex3="heavy_top_Lead_v163"/>
+             <triangular vertex1="heavy_top_Lead_v163" vertex2="heavy_top_Lead_v102" vertex3="heavy_top_Lead_v162"/>
+             <triangular vertex1="heavy_top_Lead_v102" vertex2="heavy_top_Lead_v100" vertex3="heavy_top_Lead_v162"/>
+             <triangular vertex1="heavy_top_Lead_v162" vertex2="heavy_top_Lead_v100" vertex3="heavy_top_Lead_v97"/>
+             <triangular vertex1="heavy_top_Lead_v162" vertex2="heavy_top_Lead_v97" vertex3="heavy_top_Lead_v161"/>
+             <triangular vertex1="heavy_top_Lead_v161" vertex2="heavy_top_Lead_v97" vertex3="heavy_top_Lead_v95"/>
+             <triangular vertex1="heavy_top_Lead_v161" vertex2="heavy_top_Lead_v95" vertex3="heavy_top_Lead_v160"/>
+             <triangular vertex1="heavy_top_Lead_v160" vertex2="heavy_top_Lead_v95" vertex3="heavy_top_Lead_v93"/>
+             <triangular vertex1="heavy_top_Lead_v160" vertex2="heavy_top_Lead_v93" vertex3="heavy_top_Lead_v159"/>
+             <triangular vertex1="heavy_top_Lead_v159" vertex2="heavy_top_Lead_v93" vertex3="heavy_top_Lead_v91"/>
+             <triangular vertex1="heavy_top_Lead_v159" vertex2="heavy_top_Lead_v91" vertex3="heavy_top_Lead_v158"/>
+             <triangular vertex1="heavy_top_Lead_v158" vertex2="heavy_top_Lead_v91" vertex3="heavy_top_Lead_v89"/>
+             <triangular vertex1="heavy_top_Lead_v158" vertex2="heavy_top_Lead_v89" vertex3="heavy_top_Lead_v157"/>
+             <triangular vertex1="heavy_top_Lead_v157" vertex2="heavy_top_Lead_v89" vertex3="heavy_top_Lead_v86"/>
+             <triangular vertex1="heavy_top_Lead_v157" vertex2="heavy_top_Lead_v86" vertex3="heavy_top_Lead_v156"/>
+             <triangular vertex1="heavy_top_Lead_v156" vertex2="heavy_top_Lead_v86" vertex3="heavy_top_Lead_v84"/>
+             <triangular vertex1="heavy_top_Lead_v82" vertex2="heavy_top_Lead_v80" vertex3="heavy_top_Lead_v154"/>
+             <triangular vertex1="heavy_top_Lead_v79" vertex2="heavy_top_Lead_v77" vertex3="heavy_top_Lead_v152"/>
+             <triangular vertex1="heavy_top_Lead_v2" vertex2="heavy_top_Lead_v77" vertex3="heavy_top_Lead_v0"/>
+             <triangular vertex1="heavy_top_Lead_v0" vertex2="heavy_top_Lead_v77" vertex3="heavy_top_Lead_v76"/>
+             <triangular vertex1="heavy_top_Lead_v1" vertex2="heavy_top_Lead_v0" vertex3="heavy_top_Lead_v78"/>
+             <triangular vertex1="heavy_top_Lead_v78" vertex2="heavy_top_Lead_v0" vertex3="heavy_top_Lead_v76"/>
+             <triangular vertex1="heavy_top_Lead_v168" vertex2="heavy_top_Lead_v169" vertex3="heavy_top_Lead_v170"/>
+             <triangular vertex1="heavy_top_Lead_v170" vertex2="heavy_top_Lead_v169" vertex3="heavy_top_Lead_v171"/>
+             <triangular vertex1="heavy_top_Lead_v172" vertex2="heavy_top_Lead_v168" vertex3="heavy_top_Lead_v173"/>
+             <triangular vertex1="heavy_top_Lead_v173" vertex2="heavy_top_Lead_v168" vertex3="heavy_top_Lead_v170"/>
+             <triangular vertex1="heavy_top_Lead_v172" vertex2="heavy_top_Lead_v173" vertex3="heavy_top_Lead_v174"/>
+             <triangular vertex1="heavy_top_Lead_v174" vertex2="heavy_top_Lead_v173" vertex3="heavy_top_Lead_v175"/>
+             <triangular vertex1="heavy_top_Lead_v176" vertex2="heavy_top_Lead_v177" vertex3="heavy_top_Lead_v169"/>
+             <triangular vertex1="heavy_top_Lead_v169" vertex2="heavy_top_Lead_v177" vertex3="heavy_top_Lead_v171"/>
+             <triangular vertex1="heavy_top_Lead_v174" vertex2="heavy_top_Lead_v178" vertex3="heavy_top_Lead_v172"/>
+             <triangular vertex1="heavy_top_Lead_v172" vertex2="heavy_top_Lead_v178" vertex3="heavy_top_Lead_v179"/>
+             <triangular vertex1="heavy_top_Lead_v172" vertex2="heavy_top_Lead_v179" vertex3="heavy_top_Lead_v180"/>
+             <triangular vertex1="heavy_top_Lead_v180" vertex2="heavy_top_Lead_v181" vertex3="heavy_top_Lead_v172"/>
+             <triangular vertex1="heavy_top_Lead_v172" vertex2="heavy_top_Lead_v181" vertex3="heavy_top_Lead_v182"/>
+             <triangular vertex1="heavy_top_Lead_v172" vertex2="heavy_top_Lead_v182" vertex3="heavy_top_Lead_v183"/>
+             <triangular vertex1="heavy_top_Lead_v183" vertex2="heavy_top_Lead_v184" vertex3="heavy_top_Lead_v172"/>
+             <triangular vertex1="heavy_top_Lead_v172" vertex2="heavy_top_Lead_v184" vertex3="heavy_top_Lead_v185"/>
+             <triangular vertex1="heavy_top_Lead_v172" vertex2="heavy_top_Lead_v185" vertex3="heavy_top_Lead_v186"/>
+             <triangular vertex1="heavy_top_Lead_v186" vertex2="heavy_top_Lead_v187" vertex3="heavy_top_Lead_v172"/>
+             <triangular vertex1="heavy_top_Lead_v172" vertex2="heavy_top_Lead_v187" vertex3="heavy_top_Lead_v188"/>
+             <triangular vertex1="heavy_top_Lead_v172" vertex2="heavy_top_Lead_v188" vertex3="heavy_top_Lead_v189"/>
+             <triangular vertex1="heavy_top_Lead_v189" vertex2="heavy_top_Lead_v190" vertex3="heavy_top_Lead_v172"/>
+             <triangular vertex1="heavy_top_Lead_v172" vertex2="heavy_top_Lead_v190" vertex3="heavy_top_Lead_v191"/>
+             <triangular vertex1="heavy_top_Lead_v172" vertex2="heavy_top_Lead_v191" vertex3="heavy_top_Lead_v192"/>
+             <triangular vertex1="heavy_top_Lead_v172" vertex2="heavy_top_Lead_v192" vertex3="heavy_top_Lead_v168"/>
+             <triangular vertex1="heavy_top_Lead_v168" vertex2="heavy_top_Lead_v192" vertex3="heavy_top_Lead_v193"/>
+             <triangular vertex1="heavy_top_Lead_v168" vertex2="heavy_top_Lead_v193" vertex3="heavy_top_Lead_v194"/>
+             <triangular vertex1="heavy_top_Lead_v194" vertex2="heavy_top_Lead_v195" vertex3="heavy_top_Lead_v168"/>
+             <triangular vertex1="heavy_top_Lead_v168" vertex2="heavy_top_Lead_v195" vertex3="heavy_top_Lead_v196"/>
+             <triangular vertex1="heavy_top_Lead_v168" vertex2="heavy_top_Lead_v196" vertex3="heavy_top_Lead_v197"/>
+             <triangular vertex1="heavy_top_Lead_v197" vertex2="heavy_top_Lead_v198" vertex3="heavy_top_Lead_v168"/>
+             <triangular vertex1="heavy_top_Lead_v168" vertex2="heavy_top_Lead_v198" vertex3="heavy_top_Lead_v199"/>
+             <triangular vertex1="heavy_top_Lead_v168" vertex2="heavy_top_Lead_v199" vertex3="heavy_top_Lead_v200"/>
+             <triangular vertex1="heavy_top_Lead_v200" vertex2="heavy_top_Lead_v201" vertex3="heavy_top_Lead_v168"/>
+             <triangular vertex1="heavy_top_Lead_v168" vertex2="heavy_top_Lead_v201" vertex3="heavy_top_Lead_v202"/>
+             <triangular vertex1="heavy_top_Lead_v168" vertex2="heavy_top_Lead_v202" vertex3="heavy_top_Lead_v203"/>
+             <triangular vertex1="heavy_top_Lead_v203" vertex2="heavy_top_Lead_v204" vertex3="heavy_top_Lead_v168"/>
+             <triangular vertex1="heavy_top_Lead_v168" vertex2="heavy_top_Lead_v204" vertex3="heavy_top_Lead_v205"/>
+             <triangular vertex1="heavy_top_Lead_v168" vertex2="heavy_top_Lead_v205" vertex3="heavy_top_Lead_v206"/>
+             <triangular vertex1="heavy_top_Lead_v206" vertex2="heavy_top_Lead_v207" vertex3="heavy_top_Lead_v168"/>
+             <triangular vertex1="heavy_top_Lead_v168" vertex2="heavy_top_Lead_v207" vertex3="heavy_top_Lead_v208"/>
+             <triangular vertex1="heavy_top_Lead_v168" vertex2="heavy_top_Lead_v208" vertex3="heavy_top_Lead_v209"/>
+             <triangular vertex1="heavy_top_Lead_v168" vertex2="heavy_top_Lead_v209" vertex3="heavy_top_Lead_v169"/>
+             <triangular vertex1="heavy_top_Lead_v169" vertex2="heavy_top_Lead_v209" vertex3="heavy_top_Lead_v210"/>
+             <triangular vertex1="heavy_top_Lead_v169" vertex2="heavy_top_Lead_v210" vertex3="heavy_top_Lead_v211"/>
+             <triangular vertex1="heavy_top_Lead_v211" vertex2="heavy_top_Lead_v212" vertex3="heavy_top_Lead_v169"/>
+             <triangular vertex1="heavy_top_Lead_v169" vertex2="heavy_top_Lead_v212" vertex3="heavy_top_Lead_v213"/>
+             <triangular vertex1="heavy_top_Lead_v169" vertex2="heavy_top_Lead_v213" vertex3="heavy_top_Lead_v214"/>
+             <triangular vertex1="heavy_top_Lead_v214" vertex2="heavy_top_Lead_v215" vertex3="heavy_top_Lead_v169"/>
+             <triangular vertex1="heavy_top_Lead_v169" vertex2="heavy_top_Lead_v215" vertex3="heavy_top_Lead_v216"/>
+             <triangular vertex1="heavy_top_Lead_v169" vertex2="heavy_top_Lead_v216" vertex3="heavy_top_Lead_v217"/>
+             <triangular vertex1="heavy_top_Lead_v217" vertex2="heavy_top_Lead_v218" vertex3="heavy_top_Lead_v169"/>
+             <triangular vertex1="heavy_top_Lead_v169" vertex2="heavy_top_Lead_v218" vertex3="heavy_top_Lead_v219"/>
+             <triangular vertex1="heavy_top_Lead_v169" vertex2="heavy_top_Lead_v219" vertex3="heavy_top_Lead_v220"/>
+             <triangular vertex1="heavy_top_Lead_v220" vertex2="heavy_top_Lead_v221" vertex3="heavy_top_Lead_v169"/>
+             <triangular vertex1="heavy_top_Lead_v169" vertex2="heavy_top_Lead_v221" vertex3="heavy_top_Lead_v222"/>
+             <triangular vertex1="heavy_top_Lead_v169" vertex2="heavy_top_Lead_v222" vertex3="heavy_top_Lead_v223"/>
+             <triangular vertex1="heavy_top_Lead_v223" vertex2="heavy_top_Lead_v224" vertex3="heavy_top_Lead_v169"/>
+             <triangular vertex1="heavy_top_Lead_v169" vertex2="heavy_top_Lead_v224" vertex3="heavy_top_Lead_v225"/>
+             <triangular vertex1="heavy_top_Lead_v169" vertex2="heavy_top_Lead_v225" vertex3="heavy_top_Lead_v226"/>
+             <triangular vertex1="heavy_top_Lead_v226" vertex2="heavy_top_Lead_v227" vertex3="heavy_top_Lead_v169"/>
+             <triangular vertex1="heavy_top_Lead_v169" vertex2="heavy_top_Lead_v227" vertex3="heavy_top_Lead_v176"/>
+             <triangular vertex1="heavy_top_Lead_v177" vertex2="heavy_top_Lead_v228" vertex3="heavy_top_Lead_v171"/>
+             <triangular vertex1="heavy_top_Lead_v171" vertex2="heavy_top_Lead_v228" vertex3="heavy_top_Lead_v229"/>
+             <triangular vertex1="heavy_top_Lead_v171" vertex2="heavy_top_Lead_v229" vertex3="heavy_top_Lead_v230"/>
+             <triangular vertex1="heavy_top_Lead_v230" vertex2="heavy_top_Lead_v231" vertex3="heavy_top_Lead_v171"/>
+             <triangular vertex1="heavy_top_Lead_v171" vertex2="heavy_top_Lead_v231" vertex3="heavy_top_Lead_v232"/>
+             <triangular vertex1="heavy_top_Lead_v171" vertex2="heavy_top_Lead_v232" vertex3="heavy_top_Lead_v233"/>
+             <triangular vertex1="heavy_top_Lead_v233" vertex2="heavy_top_Lead_v234" vertex3="heavy_top_Lead_v171"/>
+             <triangular vertex1="heavy_top_Lead_v171" vertex2="heavy_top_Lead_v234" vertex3="heavy_top_Lead_v235"/>
+             <triangular vertex1="heavy_top_Lead_v171" vertex2="heavy_top_Lead_v235" vertex3="heavy_top_Lead_v236"/>
+             <triangular vertex1="heavy_top_Lead_v236" vertex2="heavy_top_Lead_v237" vertex3="heavy_top_Lead_v171"/>
+             <triangular vertex1="heavy_top_Lead_v171" vertex2="heavy_top_Lead_v237" vertex3="heavy_top_Lead_v238"/>
+             <triangular vertex1="heavy_top_Lead_v171" vertex2="heavy_top_Lead_v238" vertex3="heavy_top_Lead_v239"/>
+             <triangular vertex1="heavy_top_Lead_v239" vertex2="heavy_top_Lead_v240" vertex3="heavy_top_Lead_v171"/>
+             <triangular vertex1="heavy_top_Lead_v171" vertex2="heavy_top_Lead_v240" vertex3="heavy_top_Lead_v241"/>
+             <triangular vertex1="heavy_top_Lead_v171" vertex2="heavy_top_Lead_v241" vertex3="heavy_top_Lead_v242"/>
+             <triangular vertex1="heavy_top_Lead_v242" vertex2="heavy_top_Lead_v243" vertex3="heavy_top_Lead_v171"/>
+             <triangular vertex1="heavy_top_Lead_v171" vertex2="heavy_top_Lead_v243" vertex3="heavy_top_Lead_v244"/>
+             <triangular vertex1="heavy_top_Lead_v171" vertex2="heavy_top_Lead_v244" vertex3="heavy_top_Lead_v245"/>
+             <triangular vertex1="heavy_top_Lead_v245" vertex2="heavy_top_Lead_v246" vertex3="heavy_top_Lead_v171"/>
+             <triangular vertex1="heavy_top_Lead_v171" vertex2="heavy_top_Lead_v246" vertex3="heavy_top_Lead_v170"/>
+             <triangular vertex1="heavy_top_Lead_v170" vertex2="heavy_top_Lead_v246" vertex3="heavy_top_Lead_v247"/>
+             <triangular vertex1="heavy_top_Lead_v170" vertex2="heavy_top_Lead_v247" vertex3="heavy_top_Lead_v248"/>
+             <triangular vertex1="heavy_top_Lead_v248" vertex2="heavy_top_Lead_v249" vertex3="heavy_top_Lead_v170"/>
+             <triangular vertex1="heavy_top_Lead_v170" vertex2="heavy_top_Lead_v249" vertex3="heavy_top_Lead_v250"/>
+             <triangular vertex1="heavy_top_Lead_v170" vertex2="heavy_top_Lead_v250" vertex3="heavy_top_Lead_v251"/>
+             <triangular vertex1="heavy_top_Lead_v251" vertex2="heavy_top_Lead_v252" vertex3="heavy_top_Lead_v170"/>
+             <triangular vertex1="heavy_top_Lead_v170" vertex2="heavy_top_Lead_v252" vertex3="heavy_top_Lead_v253"/>
+             <triangular vertex1="heavy_top_Lead_v170" vertex2="heavy_top_Lead_v253" vertex3="heavy_top_Lead_v254"/>
+             <triangular vertex1="heavy_top_Lead_v254" vertex2="heavy_top_Lead_v255" vertex3="heavy_top_Lead_v170"/>
+             <triangular vertex1="heavy_top_Lead_v170" vertex2="heavy_top_Lead_v255" vertex3="heavy_top_Lead_v256"/>
+             <triangular vertex1="heavy_top_Lead_v170" vertex2="heavy_top_Lead_v256" vertex3="heavy_top_Lead_v257"/>
+             <triangular vertex1="heavy_top_Lead_v257" vertex2="heavy_top_Lead_v258" vertex3="heavy_top_Lead_v170"/>
+             <triangular vertex1="heavy_top_Lead_v170" vertex2="heavy_top_Lead_v258" vertex3="heavy_top_Lead_v259"/>
+             <triangular vertex1="heavy_top_Lead_v170" vertex2="heavy_top_Lead_v259" vertex3="heavy_top_Lead_v260"/>
+             <triangular vertex1="heavy_top_Lead_v260" vertex2="heavy_top_Lead_v261" vertex3="heavy_top_Lead_v170"/>
+             <triangular vertex1="heavy_top_Lead_v170" vertex2="heavy_top_Lead_v261" vertex3="heavy_top_Lead_v262"/>
+             <triangular vertex1="heavy_top_Lead_v170" vertex2="heavy_top_Lead_v262" vertex3="heavy_top_Lead_v263"/>
+             <triangular vertex1="heavy_top_Lead_v170" vertex2="heavy_top_Lead_v263" vertex3="heavy_top_Lead_v173"/>
+             <triangular vertex1="heavy_top_Lead_v173" vertex2="heavy_top_Lead_v263" vertex3="heavy_top_Lead_v264"/>
+             <triangular vertex1="heavy_top_Lead_v173" vertex2="heavy_top_Lead_v264" vertex3="heavy_top_Lead_v265"/>
+             <triangular vertex1="heavy_top_Lead_v265" vertex2="heavy_top_Lead_v266" vertex3="heavy_top_Lead_v173"/>
+             <triangular vertex1="heavy_top_Lead_v173" vertex2="heavy_top_Lead_v266" vertex3="heavy_top_Lead_v267"/>
+             <triangular vertex1="heavy_top_Lead_v173" vertex2="heavy_top_Lead_v267" vertex3="heavy_top_Lead_v268"/>
+             <triangular vertex1="heavy_top_Lead_v268" vertex2="heavy_top_Lead_v269" vertex3="heavy_top_Lead_v173"/>
+             <triangular vertex1="heavy_top_Lead_v173" vertex2="heavy_top_Lead_v269" vertex3="heavy_top_Lead_v270"/>
+             <triangular vertex1="heavy_top_Lead_v173" vertex2="heavy_top_Lead_v270" vertex3="heavy_top_Lead_v271"/>
+             <triangular vertex1="heavy_top_Lead_v271" vertex2="heavy_top_Lead_v272" vertex3="heavy_top_Lead_v173"/>
+             <triangular vertex1="heavy_top_Lead_v173" vertex2="heavy_top_Lead_v272" vertex3="heavy_top_Lead_v273"/>
+             <triangular vertex1="heavy_top_Lead_v173" vertex2="heavy_top_Lead_v273" vertex3="heavy_top_Lead_v274"/>
+             <triangular vertex1="heavy_top_Lead_v274" vertex2="heavy_top_Lead_v275" vertex3="heavy_top_Lead_v173"/>
+             <triangular vertex1="heavy_top_Lead_v173" vertex2="heavy_top_Lead_v275" vertex3="heavy_top_Lead_v276"/>
+             <triangular vertex1="heavy_top_Lead_v173" vertex2="heavy_top_Lead_v276" vertex3="heavy_top_Lead_v277"/>
+             <triangular vertex1="heavy_top_Lead_v277" vertex2="heavy_top_Lead_v175" vertex3="heavy_top_Lead_v173"/>
+             <triangular vertex1="heavy_top_Lead_v175" vertex2="heavy_top_Lead_v277" vertex3="heavy_top_Lead_v174"/>
+             <triangular vertex1="heavy_top_Lead_v174" vertex2="heavy_top_Lead_v277" vertex3="heavy_top_Lead_v178"/>
+             <triangular vertex1="heavy_top_Lead_v178" vertex2="heavy_top_Lead_v277" vertex3="heavy_top_Lead_v276"/>
+             <triangular vertex1="heavy_top_Lead_v178" vertex2="heavy_top_Lead_v276" vertex3="heavy_top_Lead_v179"/>
+             <triangular vertex1="heavy_top_Lead_v179" vertex2="heavy_top_Lead_v276" vertex3="heavy_top_Lead_v275"/>
+             <triangular vertex1="heavy_top_Lead_v179" vertex2="heavy_top_Lead_v275" vertex3="heavy_top_Lead_v180"/>
+             <triangular vertex1="heavy_top_Lead_v180" vertex2="heavy_top_Lead_v275" vertex3="heavy_top_Lead_v274"/>
+             <triangular vertex1="heavy_top_Lead_v180" vertex2="heavy_top_Lead_v274" vertex3="heavy_top_Lead_v181"/>
+             <triangular vertex1="heavy_top_Lead_v181" vertex2="heavy_top_Lead_v274" vertex3="heavy_top_Lead_v273"/>
+             <triangular vertex1="heavy_top_Lead_v181" vertex2="heavy_top_Lead_v273" vertex3="heavy_top_Lead_v182"/>
+             <triangular vertex1="heavy_top_Lead_v182" vertex2="heavy_top_Lead_v273" vertex3="heavy_top_Lead_v272"/>
+             <triangular vertex1="heavy_top_Lead_v182" vertex2="heavy_top_Lead_v272" vertex3="heavy_top_Lead_v183"/>
+             <triangular vertex1="heavy_top_Lead_v183" vertex2="heavy_top_Lead_v272" vertex3="heavy_top_Lead_v271"/>
+             <triangular vertex1="heavy_top_Lead_v183" vertex2="heavy_top_Lead_v271" vertex3="heavy_top_Lead_v184"/>
+             <triangular vertex1="heavy_top_Lead_v184" vertex2="heavy_top_Lead_v271" vertex3="heavy_top_Lead_v270"/>
+             <triangular vertex1="heavy_top_Lead_v184" vertex2="heavy_top_Lead_v270" vertex3="heavy_top_Lead_v185"/>
+             <triangular vertex1="heavy_top_Lead_v185" vertex2="heavy_top_Lead_v270" vertex3="heavy_top_Lead_v269"/>
+             <triangular vertex1="heavy_top_Lead_v185" vertex2="heavy_top_Lead_v269" vertex3="heavy_top_Lead_v186"/>
+             <triangular vertex1="heavy_top_Lead_v186" vertex2="heavy_top_Lead_v269" vertex3="heavy_top_Lead_v268"/>
+             <triangular vertex1="heavy_top_Lead_v186" vertex2="heavy_top_Lead_v268" vertex3="heavy_top_Lead_v187"/>
+             <triangular vertex1="heavy_top_Lead_v187" vertex2="heavy_top_Lead_v268" vertex3="heavy_top_Lead_v267"/>
+             <triangular vertex1="heavy_top_Lead_v187" vertex2="heavy_top_Lead_v267" vertex3="heavy_top_Lead_v188"/>
+             <triangular vertex1="heavy_top_Lead_v188" vertex2="heavy_top_Lead_v267" vertex3="heavy_top_Lead_v266"/>
+             <triangular vertex1="heavy_top_Lead_v188" vertex2="heavy_top_Lead_v266" vertex3="heavy_top_Lead_v189"/>
+             <triangular vertex1="heavy_top_Lead_v189" vertex2="heavy_top_Lead_v266" vertex3="heavy_top_Lead_v265"/>
+             <triangular vertex1="heavy_top_Lead_v189" vertex2="heavy_top_Lead_v265" vertex3="heavy_top_Lead_v190"/>
+             <triangular vertex1="heavy_top_Lead_v190" vertex2="heavy_top_Lead_v265" vertex3="heavy_top_Lead_v264"/>
+             <triangular vertex1="heavy_top_Lead_v190" vertex2="heavy_top_Lead_v264" vertex3="heavy_top_Lead_v191"/>
+             <triangular vertex1="heavy_top_Lead_v191" vertex2="heavy_top_Lead_v264" vertex3="heavy_top_Lead_v263"/>
+             <triangular vertex1="heavy_top_Lead_v191" vertex2="heavy_top_Lead_v263" vertex3="heavy_top_Lead_v192"/>
+             <triangular vertex1="heavy_top_Lead_v192" vertex2="heavy_top_Lead_v263" vertex3="heavy_top_Lead_v262"/>
+             <triangular vertex1="heavy_top_Lead_v192" vertex2="heavy_top_Lead_v262" vertex3="heavy_top_Lead_v193"/>
+             <triangular vertex1="heavy_top_Lead_v193" vertex2="heavy_top_Lead_v262" vertex3="heavy_top_Lead_v261"/>
+             <triangular vertex1="heavy_top_Lead_v193" vertex2="heavy_top_Lead_v261" vertex3="heavy_top_Lead_v194"/>
+             <triangular vertex1="heavy_top_Lead_v194" vertex2="heavy_top_Lead_v261" vertex3="heavy_top_Lead_v260"/>
+             <triangular vertex1="heavy_top_Lead_v194" vertex2="heavy_top_Lead_v260" vertex3="heavy_top_Lead_v195"/>
+             <triangular vertex1="heavy_top_Lead_v195" vertex2="heavy_top_Lead_v260" vertex3="heavy_top_Lead_v259"/>
+             <triangular vertex1="heavy_top_Lead_v195" vertex2="heavy_top_Lead_v259" vertex3="heavy_top_Lead_v196"/>
+             <triangular vertex1="heavy_top_Lead_v196" vertex2="heavy_top_Lead_v259" vertex3="heavy_top_Lead_v258"/>
+             <triangular vertex1="heavy_top_Lead_v196" vertex2="heavy_top_Lead_v258" vertex3="heavy_top_Lead_v197"/>
+             <triangular vertex1="heavy_top_Lead_v197" vertex2="heavy_top_Lead_v258" vertex3="heavy_top_Lead_v257"/>
+             <triangular vertex1="heavy_top_Lead_v197" vertex2="heavy_top_Lead_v257" vertex3="heavy_top_Lead_v198"/>
+             <triangular vertex1="heavy_top_Lead_v198" vertex2="heavy_top_Lead_v257" vertex3="heavy_top_Lead_v256"/>
+             <triangular vertex1="heavy_top_Lead_v198" vertex2="heavy_top_Lead_v256" vertex3="heavy_top_Lead_v199"/>
+             <triangular vertex1="heavy_top_Lead_v199" vertex2="heavy_top_Lead_v256" vertex3="heavy_top_Lead_v255"/>
+             <triangular vertex1="heavy_top_Lead_v199" vertex2="heavy_top_Lead_v255" vertex3="heavy_top_Lead_v200"/>
+             <triangular vertex1="heavy_top_Lead_v200" vertex2="heavy_top_Lead_v255" vertex3="heavy_top_Lead_v254"/>
+             <triangular vertex1="heavy_top_Lead_v200" vertex2="heavy_top_Lead_v254" vertex3="heavy_top_Lead_v201"/>
+             <triangular vertex1="heavy_top_Lead_v201" vertex2="heavy_top_Lead_v254" vertex3="heavy_top_Lead_v253"/>
+             <triangular vertex1="heavy_top_Lead_v201" vertex2="heavy_top_Lead_v253" vertex3="heavy_top_Lead_v202"/>
+             <triangular vertex1="heavy_top_Lead_v202" vertex2="heavy_top_Lead_v253" vertex3="heavy_top_Lead_v252"/>
+             <triangular vertex1="heavy_top_Lead_v202" vertex2="heavy_top_Lead_v252" vertex3="heavy_top_Lead_v203"/>
+             <triangular vertex1="heavy_top_Lead_v203" vertex2="heavy_top_Lead_v252" vertex3="heavy_top_Lead_v251"/>
+             <triangular vertex1="heavy_top_Lead_v203" vertex2="heavy_top_Lead_v251" vertex3="heavy_top_Lead_v204"/>
+             <triangular vertex1="heavy_top_Lead_v204" vertex2="heavy_top_Lead_v251" vertex3="heavy_top_Lead_v250"/>
+             <triangular vertex1="heavy_top_Lead_v204" vertex2="heavy_top_Lead_v250" vertex3="heavy_top_Lead_v205"/>
+             <triangular vertex1="heavy_top_Lead_v205" vertex2="heavy_top_Lead_v250" vertex3="heavy_top_Lead_v249"/>
+             <triangular vertex1="heavy_top_Lead_v205" vertex2="heavy_top_Lead_v249" vertex3="heavy_top_Lead_v206"/>
+             <triangular vertex1="heavy_top_Lead_v206" vertex2="heavy_top_Lead_v249" vertex3="heavy_top_Lead_v248"/>
+             <triangular vertex1="heavy_top_Lead_v206" vertex2="heavy_top_Lead_v248" vertex3="heavy_top_Lead_v207"/>
+             <triangular vertex1="heavy_top_Lead_v207" vertex2="heavy_top_Lead_v248" vertex3="heavy_top_Lead_v247"/>
+             <triangular vertex1="heavy_top_Lead_v207" vertex2="heavy_top_Lead_v247" vertex3="heavy_top_Lead_v208"/>
+             <triangular vertex1="heavy_top_Lead_v208" vertex2="heavy_top_Lead_v247" vertex3="heavy_top_Lead_v246"/>
+             <triangular vertex1="heavy_top_Lead_v208" vertex2="heavy_top_Lead_v246" vertex3="heavy_top_Lead_v209"/>
+             <triangular vertex1="heavy_top_Lead_v209" vertex2="heavy_top_Lead_v246" vertex3="heavy_top_Lead_v245"/>
+             <triangular vertex1="heavy_top_Lead_v209" vertex2="heavy_top_Lead_v245" vertex3="heavy_top_Lead_v210"/>
+             <triangular vertex1="heavy_top_Lead_v210" vertex2="heavy_top_Lead_v245" vertex3="heavy_top_Lead_v244"/>
+             <triangular vertex1="heavy_top_Lead_v210" vertex2="heavy_top_Lead_v244" vertex3="heavy_top_Lead_v211"/>
+             <triangular vertex1="heavy_top_Lead_v211" vertex2="heavy_top_Lead_v244" vertex3="heavy_top_Lead_v243"/>
+             <triangular vertex1="heavy_top_Lead_v211" vertex2="heavy_top_Lead_v243" vertex3="heavy_top_Lead_v212"/>
+             <triangular vertex1="heavy_top_Lead_v212" vertex2="heavy_top_Lead_v243" vertex3="heavy_top_Lead_v242"/>
+             <triangular vertex1="heavy_top_Lead_v212" vertex2="heavy_top_Lead_v242" vertex3="heavy_top_Lead_v213"/>
+             <triangular vertex1="heavy_top_Lead_v213" vertex2="heavy_top_Lead_v242" vertex3="heavy_top_Lead_v241"/>
+             <triangular vertex1="heavy_top_Lead_v213" vertex2="heavy_top_Lead_v241" vertex3="heavy_top_Lead_v214"/>
+             <triangular vertex1="heavy_top_Lead_v214" vertex2="heavy_top_Lead_v241" vertex3="heavy_top_Lead_v240"/>
+             <triangular vertex1="heavy_top_Lead_v214" vertex2="heavy_top_Lead_v240" vertex3="heavy_top_Lead_v215"/>
+             <triangular vertex1="heavy_top_Lead_v215" vertex2="heavy_top_Lead_v240" vertex3="heavy_top_Lead_v239"/>
+             <triangular vertex1="heavy_top_Lead_v215" vertex2="heavy_top_Lead_v239" vertex3="heavy_top_Lead_v216"/>
+             <triangular vertex1="heavy_top_Lead_v216" vertex2="heavy_top_Lead_v239" vertex3="heavy_top_Lead_v238"/>
+             <triangular vertex1="heavy_top_Lead_v216" vertex2="heavy_top_Lead_v238" vertex3="heavy_top_Lead_v217"/>
+             <triangular vertex1="heavy_top_Lead_v217" vertex2="heavy_top_Lead_v238" vertex3="heavy_top_Lead_v237"/>
+             <triangular vertex1="heavy_top_Lead_v217" vertex2="heavy_top_Lead_v237" vertex3="heavy_top_Lead_v218"/>
+             <triangular vertex1="heavy_top_Lead_v218" vertex2="heavy_top_Lead_v237" vertex3="heavy_top_Lead_v236"/>
+             <triangular vertex1="heavy_top_Lead_v218" vertex2="heavy_top_Lead_v236" vertex3="heavy_top_Lead_v219"/>
+             <triangular vertex1="heavy_top_Lead_v219" vertex2="heavy_top_Lead_v236" vertex3="heavy_top_Lead_v235"/>
+             <triangular vertex1="heavy_top_Lead_v219" vertex2="heavy_top_Lead_v235" vertex3="heavy_top_Lead_v220"/>
+             <triangular vertex1="heavy_top_Lead_v220" vertex2="heavy_top_Lead_v235" vertex3="heavy_top_Lead_v234"/>
+             <triangular vertex1="heavy_top_Lead_v220" vertex2="heavy_top_Lead_v234" vertex3="heavy_top_Lead_v221"/>
+             <triangular vertex1="heavy_top_Lead_v221" vertex2="heavy_top_Lead_v234" vertex3="heavy_top_Lead_v233"/>
+             <triangular vertex1="heavy_top_Lead_v221" vertex2="heavy_top_Lead_v233" vertex3="heavy_top_Lead_v222"/>
+             <triangular vertex1="heavy_top_Lead_v222" vertex2="heavy_top_Lead_v233" vertex3="heavy_top_Lead_v232"/>
+             <triangular vertex1="heavy_top_Lead_v222" vertex2="heavy_top_Lead_v232" vertex3="heavy_top_Lead_v223"/>
+             <triangular vertex1="heavy_top_Lead_v223" vertex2="heavy_top_Lead_v232" vertex3="heavy_top_Lead_v231"/>
+             <triangular vertex1="heavy_top_Lead_v223" vertex2="heavy_top_Lead_v231" vertex3="heavy_top_Lead_v224"/>
+             <triangular vertex1="heavy_top_Lead_v224" vertex2="heavy_top_Lead_v231" vertex3="heavy_top_Lead_v230"/>
+             <triangular vertex1="heavy_top_Lead_v224" vertex2="heavy_top_Lead_v230" vertex3="heavy_top_Lead_v225"/>
+             <triangular vertex1="heavy_top_Lead_v225" vertex2="heavy_top_Lead_v230" vertex3="heavy_top_Lead_v229"/>
+             <triangular vertex1="heavy_top_Lead_v225" vertex2="heavy_top_Lead_v229" vertex3="heavy_top_Lead_v226"/>
+             <triangular vertex1="heavy_top_Lead_v226" vertex2="heavy_top_Lead_v229" vertex3="heavy_top_Lead_v228"/>
+             <triangular vertex1="heavy_top_Lead_v226" vertex2="heavy_top_Lead_v228" vertex3="heavy_top_Lead_v227"/>
+             <triangular vertex1="heavy_top_Lead_v227" vertex2="heavy_top_Lead_v228" vertex3="heavy_top_Lead_v177"/>
+             <triangular vertex1="heavy_top_Lead_v227" vertex2="heavy_top_Lead_v177" vertex3="heavy_top_Lead_v176"/>
+        </tessellated>
+    </solids>
+
+    <structure>
+        <volume name="heavy_top_Lead">
+            <materialref ref="Lead"/>
+            <solidref ref="heavy_top_Lead-SOL"/>
+        </volume>
+    </structure>
+
+    <setup name="Default" version="1.0">
+        <world ref="heavy_top_Lead"/>
+    </setup>
+</gdml>
